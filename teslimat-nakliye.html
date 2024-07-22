@@ -1,0 +1,2214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="container">
+                <div class="row d-none d-lg-flex py-4">
+                    <div class="col-3">
+                        <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                    </div>
+                    <div class="col-4 ms-auto">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-text search p-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2 header d-flex align-items-center justify-content-evenly">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                        <a href="" class="text-decoration-none">020 7768 5000</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container-fluid container-lg">
+                    <div class="row">
+                        <div class="col-8 py-2 px-0 py-lg-0">
+                            <nav class="navbar navbar-expand-lg navbar-dark py-0">
+                                <div class="container">
+                                    <button type="button" class="btn border d-lg-none" data-bs-toggle="modal" data-bs-target="#modal">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="dropdown d-none d-lg-flex" id="contact-lenses">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Kontak lens
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex" id="eye-care">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Göz bakımı
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex" id="solutions">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Çözümler
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <a href="" class="btn btn-transparent text-white border-0 text-decoration-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Yardım ve Haberler
+                                        </a>
+                                    </div>
+                                    <div class="col-1 ms-4 me-auto d-lg-none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="col-6 d-lg-none">
+                                        <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                                    </div>
+                                </div>
+                            </nav>
+                            <ul class="d-menu ps-0" id="contact-lenses2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="acuvue"><a class="dropdown-item mb-2 border-end border-primary border-4" href="acuvue.html">Acuvue</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                                <img src="./assets/src/img/446.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/447.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/448.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/449.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/450.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/451.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/452.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/453.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/454.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="air-optix"><a class="dropdown-item mb-2" href="air-optix.html">Air Optix</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/455.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/456.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/457.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/458.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/459.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/460.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/461.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/462.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="biofiniti"><a class="dropdown-item mb-2" href="biofinity.html">Biofiniti</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/463.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/464.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/465.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/466.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/467.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/468.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/469.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/470.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/471.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="clariti"><a class="dropdown-item mb-2" href="clariti.html">Clariti</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/472.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/473.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/474.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/475.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="dailies"><a class="dropdown-item mb-2" href="dailies.html">Dailies</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/476.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/477.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/478.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/479.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/480.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/481.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/482.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/483.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/484.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="everclear"><a class="dropdown-item mb-2" href="everclear.html">everclear</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/485.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/486.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/487.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/488.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/489.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/490.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/491.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/492.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/493.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="freshlook"><a class="dropdown-item mb-2" href="freshlook.html">Freshlook</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/494.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/495.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/496.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/497.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="daily-lenses"><a class="dropdown-item mb-2" href="daily-contact-lenses.html">Günlük Lensler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/498.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/499.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/500.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/501.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/502.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/503.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/504.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/505.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/506.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="two-weekly"><a class="dropdown-item mb-2" href="two-weekly-contact-lenses.html">İki Haftalık</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/507.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/508.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/509.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/510.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/511.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/512.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/513.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/514.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/515.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="monthly-lenses"><a class="dropdown-item mb-2" href="monthly-contact-lenses.html">Aylık Lensler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/516.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/517.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/518.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/519.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/520.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/521.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/522.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/523.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/524.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="torics-for-astigmatism"><a class="dropdown-item mb-2" href="toric-contact-lenses.html">Astigmatizma için Torikler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/525.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/526.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/527.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/528.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/529.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/530.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/531.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/532.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/533.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            <ul class="d-menu ps-0" id="eye-care2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="dry-eye-treatments"><a class="dropdown-item mb-2 border-end border-primary border-4" href="dry-eye-treatments.html">Kuru Göz Tedavileri</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/534.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/535.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/536.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/537.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/538.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/539.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-drops"><a class="dropdown-item mb-2" href="eye-drops.html">Gözyaşı</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/540.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/541.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/542.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/543.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/544.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/545.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-vitamins"><a class="dropdown-item mb-2" href="eye-vitamins.html">Göz Vitaminleri</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/546.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/547.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/548.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/549.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="hygiene-lid-care"><a class="dropdown-item mb-2" href="hygiene-lid-care.html">Hijyen & Kapak Bakımı</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/550.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/551.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/552.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/553.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/554.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/555.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-wash-sprays"><a class="dropdown-item mb-2" href="eye-wash-sprays.html">Göz Yıkama ve Spreyler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/556.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/557.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            <ul class="d-menu ps-0" id="solutions2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="multi-purpose"><a class="dropdown-item mb-2 border-end border-primary border-4" href="multi-purpose-solutions.html">Çok amaçlı</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/558.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/559.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/560.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/561.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/562.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/563.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/564.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/565.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/566.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="cleaners-salines"><a class="dropdown-item mb-2" href="cleaners-salines.html">Temizleyiciler ve Salinler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/567.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/568.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="gas-permeable"><a class="dropdown-item mb-2" href="gas-permeable-solutions.html">Gaz Geçirgen</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/569.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/570.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/571.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/572.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/573.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="travel-packs"><a class="dropdown-item mb-2" href="travel-packs-solutions.html">Seyahat Paketleri</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/574.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/575.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/576.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/577.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/578.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="hydrogen-peroxide"><a class="dropdown-item mb-2" href="hydrogen-peroxide-solutions.html">Hidrojen peroksit</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/579.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/580.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="col-3 d-flex align-items-center">
+                            <a href="login.html" class="text-decoration-none text-white d-none d-lg-flex me-4 ms-auto">Giriş Yap</a>
+                        </div>
+                        <div class="col-1 d-flex justify-content-end bag">
+                            <a href="" class="text-decoration-none text-white d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" class="bi bi-handbag" viewBox="0 0 16 16">
+                                    <path d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2zm3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6h4z"/>
+                                </svg>
+                                <p class="mb-0 d-none d-lg-flex ms-2">€0.00</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal" tabindex="-1">
+                        <div class="modal-dialog modal-fullscreen-lg-down">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-0 py-0">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Markaya Göre Kontakt Lensler
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="acuvue.html">Acuvue</a>
+                                                    <a href="air-optix.html">Air Optix</a>
+                                                    <a href="biofinity.html">Biofiniti</a>
+                                                    <a href="clariti.html">Clariti</a>
+                                                    <a href="dailies.html">Dailies</a>
+                                                    <a href="everclear.html">everclear</a>
+                                                    <a href="freshlook.html">Freshlook</a>
+                                                    <a href="daily-contact-lenses.html">Günlük Lensler</a>
+                                                    <a href="two-weekly-contact-lenses.html">İki Haftalık</a>
+                                                    <a href="monthly-contact-lenses.html">Aylık Lensler</a>
+                                                    <a href="toric-contact-lenses.html">Astigmatizma için Torikler</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Göz bakımı
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="dry-eye-treatments.html">Kuru Göz Tedavileri</a>
+                                                    <a href="eye-drops.html">Gözyaşı</a>
+                                                    <a href="eye-vitamins.html">Göz Vitaminleri</a>
+                                                    <a href="hygiene-lid-care.html">Hijyen & Kapak Bakımı</a>
+                                                    <a href="eye-wash-sprays.html">Göz Yıkama ve Spreyler</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Çözümler
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="multi-purpose-solutions.html">Çok amaçlı</a>
+                                                    <a href="cleaners-salines.html">Temizleyiciler ve Salinler</a>
+                                                    <a href="gas-permeable-solutions.html">Gaz Geçirgen</a>
+                                                    <a href="travel-packs-solutions.html">Seyahat Paketleri</a>
+                                                    <a href="hydrogen-peroxide-solutions.html">Hidrojen peroksit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <a href="#" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Teslimat Bilgisi</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <a href="#" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Bize Ulaşın</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item border-bottom">
+                                            <div class="modal-body bg-dark">
+                                                <a href="login.html" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Giriş Yap</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <div class="d-grid mt-2 gap-2">
+                                                  <a href="" id="phone" type="button" class="btn rounded-5 py-3 text-decoration-none fw-bold text-white d-flex justify-content-center align-items-center">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                                    </svg>
+                                                    <p class="text-white fw-bold mb-0 ms-3 fs-6">UK - 020 7768 5000</p>
+                                                  </a>
+                                                  <p class="fw-bold">Açık Pazartesi - Cuma 8:00 - 21:00, ve Cumartesi - Pazar 8:00 - 18:00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid alt-header d-none d-lg-flex">
+                <div class="container px-0">
+                    <div class="row py-2">
+                        <div class="col-12 col-lg-3 col-xxl-3 d-flex">
+                            <img src="./assets/src/svg/free-replacement-lenses.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">%45'e kadar daha ucuz</p>
+                        </div>
+                        <div class="col-12 col-lg-3 col-xxl-3 d-flex">
+                            <img src="./assets/src/svg/100-day-guarantee.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">365 gün garanti</p>
+                        </div>
+                        <div class="col-12 col-lg-3 col-xxl-3 d-flex">
+                            <img src="./assets/src/svg/next-day-delivery.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">Ertesi gün teslimat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/free-replacement-lenses.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">%45'e kadar daha ucuz</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/100-day-guarantee.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">365 gün garanti</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/next-day-delivery.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">Ertesi gün teslimat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col ps-0">
+                                <h2 class="border-bottom pb-3 fw-bold">TESLİMAT VE NAKLİYE</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Siparişim kargoya verildi ama gelmedi, kargom nerede?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    UPS veya kullandığımız başka bir kargo firması ile siparişinizi belirtilen süre içinde teslim edemediyse özür dileriz. Çok nadiren, öngörülemeyen koşullar nedeniyle gecikmeler olabilir.
+                                    Hangi işlemi yapacağınızı öğrenmek için lütfen aşağıya bakın:
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong>UPS KARGO YADA YURTİÇİ KARGO İLE TAKİP EDİYORSANIZ :</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                     UPS ve Yurtiçi kargo ile gönderildiyse, siparişinizin size ulaşması için lütfen 5 iş günü bekleyin. Siparişiniz kargoya verildikten sonraki 5. iş gününde ulaşmadıysa ve adresinizde bulunamadığınızı belirten bir not yok ise lütfen müşteri hizmetleri ekibimize <a href="" class="text-primary">info@lenssepeti.com.tr</a> adresinden veya 0850 307 46 75 numaralı telefondan iletişime geçin, size daha fazla yardımcı olacaklardır .
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong>ÖZEL TESLİMAT KARGO : </strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Siparişiniz Özel Teslimat ile gönderildiyse, ürünleriniz bir sonraki iş günü saat 20:00'e kadar ulaşmalıdır. Siparişiniz gönderildikten sonraki gün saat 20:00'e kadar ulaşmadıysa ve irsaliye bırakılmadıysa, size daha fazla yardımcı olabilmeleri için lütfen müşteri hizmetleri ekibimizle <a href="" class="text-primary">info@lenssepeti.com.tr</a> adresinden e-posta veya 0850 307 46 75 numaralı telefondan iletişime geçin.
+                                    Lütfen verdiğiniz teslimat adresinin doğru olduğunu kontrol edin.<br><br>
+                                    *Siparişinizin takibini, Özel Teslimat hizmetimizi kullandığınızda, size kargolarınız takip edeceğiniz bir e-posta gönderilecektir.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Siparişlerin gönderilmesi ne kadar sürer?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Biz büyük bir kontakt lens, solüsyon ve aksesuar stoğuna sahibiz, bu da çoğu ürünü çok hızlı bir şekilde sevk edebildiğimiz anlamına gelir. Saat 15:00'dan önce verilen siparişlerin %80'ini aynı gün kargoya veriyoruz ve akşam siparişleri ertesi gün sevk ediliyor. Daha karmaşık ve kişiye özel reçeteleri size göndermemiz biraz daha uzun sürecek çünkü bunları üreticiden sipariş etmemiz gerekiyor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger"><a href="" class="text-danger">www.lenssepeti.com.tr</a> hangi ülkelere gönderim yapıyor?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Yurtdışına satışımız yoktur.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <h2 class="border-bottom pb-3 fw-bold">SİPARİŞ</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Reçete alanlarına hangi değerleri koyacağımdan emin değilim</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Lenslerinizi satın almak için ürün sayfasında geçerli reçetenizi girmeniz gerekecektir. İlk değer Güç'tür PWR (SPH), '+' veya '-' sayısı (yani -1.50 veya +1.50) olacaktır. Güç ayrıca '0.00' veya Plano olabilir, bu, görme düzeltmesine ihtiyacınız olmadığı anlamına gelir. İkinci değer, tipik olarak 8,3 - 9,0 arasında olan Temel Eğri'dir (BC). Üçüncü değer Çap'tır (DİA) ve tipik olarak 13,8 - 14,5 arasındadır.<br><br>
+                                    Presbiyopi veya Astigmatizminiz varsa, bazı ek alanları doldurmanız gerekecektir.
+                                    Astigmatizmi düzelten bir torik lens için sizden tipik olarak -0,25 ile -2,75 arasında değişen Silindir (CYL) ve tipik olarak 5 ile 180 arasında değişen Aks istenecektir.<br><br>
+                                    Presbiyopiyi düzelten çok odaklı lensler için sizden şu bilgiler istenecektir: Ek (Add) veya Ekstra Güç, tipik olarak +1,00 ile +2,50 arasında değişir. Lütfen dikkat: Bazı reçetelerde bunlar kelime biçiminde yazılacaktır (yani DÜŞÜK, ORTA, YÜKSEK).
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Her iki gözümde de aynı güç (numara)var ya da her bir gözüm için farklı bir lens markasına ihtiyacım var, tek bir kutuyu nasıl sipariş edebilirim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Sadece bir göz için lens numarasına ihtiyacınız varsa, kontakt lenslerinizi tekli kutularda satın alabilirsiniz. Ürün sayfasında reçetenizi girdiğiniz yerin hemen üstündeki 'Tekli Kutu'yu seçebilirsiniz. Bu, ikinci bir reçete girmek için alanı kaldıracak ve yalnızca bir kutu satın almanıza izin verecektir.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Hangi ödeme seçenekleri mevcuttur?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Türkiye'deki tüm büyük banka kartlarıyla ödeme kabul ediyoruz ayrıca: Visa, MasterCard, American Express, Visa Debit ve Visa Electron.kartlardan ödeme alıyoruz.
+                                    İnternet üzerinden ödeme yaparken sizin için mükemmel koruma sağladıkları için bu seçenekleri seçtik.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Hangi kredi kartlarına taksit yapıyorsunuz ?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Bütün kredi kartlara taksit yapabiliyoruz. Yalnız bazı kart özellikleri taksit yapma seçeneği sunmuyor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ps-0">
+                                <h2 class="border-bottom pb-3 fw-bold">İADE & DEĞİŞİM</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Son siparişimi değiştirmek/iptal etmek istiyorum, bunu nasıl yapabilirim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Ödemesini yaptığınız bir siparişte değişiklik yapmak veya iptal etmek için lütfen 0850 307 46 75 numaralı telefondan veya info@lenssepeti.com.tr adresinden müşteri hizmetleri ekibimizle iletişime geçin.<br><br>
+                                    <strong>Lütfen dikkat:</strong> Aynı gün sevk edilen ürünler için, e-posta taleplerinin cevaplanması daha uzun sürebileceğinden müşteri hizmetleri ekibimizi aramanızı öneririz. Siparişiniz bizimle iletişime geçilmeden önce depomuz tarafından zaten işlenmişse, siparişinizi değiştiremeyebiliriz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Bir ürünü iade etmek istiyorum</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    365 gün değişim 14 gün içinde iade kabul ediyoruz. İade veya değişim işlemlerinizin tarafımızca gerçekleştirilebilmesi için ürünü orijinal ambalajında, açılmamış ve hasar görmemiş olarak tarafımıza iade etmeniz gerekmektedir. İade işlemleri için tıklayınız , lütfen bu aşağıdaki adrese gönderin:
+                                    AHMET YESEVİ MAHALLESİ PİRSULTAN SOK. NO:13/10
+                                    34000 PENDİK/ İSTANBUL/<a href="" class="text-primary">Lenssepeti.com.tr</a>
+                                    Siparişinizi iade ederken iade işlemleri bölümünde bir kargo makbuzu aldığınızdan emin olun. Nakliye sırasında kaybolan iadelerden sorumlu tutulamayız.
+                                    İade veya değişiminizin işleme koyulabilmesi için, hüküm ve koşullarımızda belirtildiği gibi, siparişinizi bize vermenizden sonraki 14 gün iade - değişim için 365 gün içinde alınmış olması gerekir.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Lenslerimin hasarlı (Bozuk- Yırtık) olabileceğini düşünüyorum</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Lenslerinizin hasarlı olduğunu düşünüyorsanız lütfen 0850 307 46 75 numaralı telefondan veya <a href="" class="text-primary">info@lenssepeti.com.tr</a> adresinden müşteri hizmetleri ekibimizle iletişime geçin. Lenssepeti'nden alınan tüm hasarlı lensleri değiştirmeyi kabul ediyoruz.<br><br>
+                                    Üretici, analiz için geri gönderilmesini isteyebileceğinden, lütfen arızalı lensleri (Solüsyonlu bir lens kutusunda saklayın) sorun konusunda bizi uyardıktan sonra 5 iş günü boyunca saklayın. Üreticiyle bir şikayeti işleme koymak için, göz doktorunuz tarafından size verilen kontakt lens reçetesini ve arızalı kontakt lens kutusunun LOT numarasını (genellikle barkodun yanında bulunur) isteyebiliriz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Geri ödememin işlenmesi ne kadar sürer?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    İade ettiğiniz ürünü aldıktan sonra, geri ödemelerinizi 10 iş günü içinde işleme koymayı hedefliyoruz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Geri ödemem nereye yatırılır?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Tüm geri ödemeler, orijinal işlemde ödeme yapmak için kullandığınız banka hesabına veya kredi/bankamatik kartına işlenecektir. Geri ödemelerin ekstrenizde görünmesi genellikle 3-5 iş gün sürer.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Yanlış ürün aldım</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <a href="" class="text-primary">lenssepeti.com.tr</a>'de tüm müşterilerimize güvenilir ve doğru bir hizmet sunmak için çok çalışıyoruz. Ancak bizden yanlış bir ürün almanız durumunda, doğru olanı hemen göndereceğiz (gönderme sürelerine bağlı olarak). Yanlış geçilen siparişi geri iade etmeniz gerekiyor.<br><br>
+                                    AHMET YESEVİ MAHALLESİ PİRSULTAN SOK. NO:13/10<br>
+                                    34000 PENDİK/ İSTANBUL/<a href="" class="text-primary">Lenssepeti.com.tr</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ps-0">
+                                <h2 class="border-bottom pb-3 fw-bold">HESABIM</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Şifremi Unuttum</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Size Parolamı Unuttum sıfırlama e-postası göndermemizi isterseniz?<br>
+                                    <strong>Parolanızı mı Unuttunuz?</strong>  bağlantısını tıklayın ve bizde kayıtlı e-posta adresinizi girin. Size geçici bir şifre göndereceğiz. Daha fazla yardım için müşteri hizmetleri ekibimizi 0850 307 46 75 numaralı telefondan aramaktan çekinmeyin.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Faturalarımı nasıl görüntüleyebilirim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Çevresel etkimizi azaltma misyonumuzun bir parçası olarak kağıtsız hale geldik. Artık siparişinizle birlikte kağıt fatura almayacaksınız. Bunun yerine, siparişiniz gönderilir gönderilmez faturalarınızı Hesabım bölümünden görüntüleyebilir ve indirebilirsiniz.<br>
+                                    <strong>Oraya basitçe ulaşmak için:</strong><br>
+                                    1. Hesabım bölümüne giriş yapın<br>
+                                    2. "Sipariş Geçmişi"ne tıklayın ve son satın alma işleminizi seçin<br>
+                                    3. "Faturayı Görüntüle"yi tıklayın<br>
+                                    Fatura adresimi / e-posta adresimi / hesap şifremi değiştirmek istiyorum<br>
+                                    Hesap detaylarınızdan herhangi birini değiştirmek isterseniz, hesabınıza giriş yapmanız gerekir. Bunu şu bağlantıya tıklayarak yapabilirsiniz: Hesabım . Giriş yaptıktan sonra, hem bilgilerinizi hem de şifrenizi değiştirme seçeneğine sahip olacaksınız.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Kart bilgilerim <a href="" class="text-danger">Lenssepeti.com.tr</a> tarafından saklanıyor mu?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    Kart bilgileriniz yalnızca mevcut siparişiniz için kullanılır ve bizde saklanmaz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ps-0">
+                                <h2 class="border-bottom pb-3 fw-bold">KONTAK LENS SORULARI</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Neden bu kadar çok farklı kontakt lens markası ve türü var?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Her bireyin özel gereksinimlerini karşılamak için birçok farklı türde ve markada kontakt lens bulunmaktadır. Herkesin benzersiz gözleri vardır ve belirli bir şekle ve farklı lens teknolojisine ihtiyaç duyacaktır. <a href="" class="text-primary">Lenssepeti.com.tr</a> bu kadar geniş bir lens yelpazesine sahip olmamızın nedeni budur. Çok çeşitli markalar ve lensler mevcut olsa da, size göz doktorunuz sizin için en iyi olduğuna inandığı marka ve türü reçete etmiş olacaktır. Marka belirtmediği durumlarda optisyenlerimiz size yardımcı olacaktır.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Kontakt lenslerimi ne kadar süre takabilirim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    <a href="" class="text-primary">Lenssepeti.com.tr</a>'de günlük, iki haftalık, aylık ve uzun süreli kullanım kontakt lensleri satıyoruz. Lenslerinizi ne kadar süre takmanız gerektiği konusunda her zaman göz doktorunuzun ve optisyeninizin tavsiyelerine uyun. Lensleri günlük önerilen kullanım sürenizden daha uzun süre takılı tutmaktan veya son kullanma tarihi geçmiş lensleri kullanmaya devam etmekten her zaman kaçınmalısınız.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Kontakt lenslerimi temizlemek ve saklamak için hangi solüsyonu kullanabilirim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Kontakt lens uygulamanız ve kontrolleriniz sırasında, göz doktorunuz size reçete edilen kontakt lensler için uygun bir solüsyon önerecektir. Yalnızca optisyen ve göz doktorunuzu size önerdiği solüsyonu satın almalı ve yeni bir Solüsyon denemeden önce onlara danışmalısınız. Bunun nedeni, her markanın belirli ihtiyaçları karşılamak için farklı bileşenler içermesidir.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Beğenip beğenmediği mi / tercih edip etmediği mi görmek için farklı bir lens denemeyi düşünüyorum ?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Yeni bir kontakt lens markası denemek istiyorsanız her zaman göz doktorunuza danışın. Lensin sizin için uygun olup olmadığı konusunda tavsiyede bulunabilirler ve hatta size ücretsiz bir deneme lensi sunabilirler.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Göz doktoru muayenesinde herhangi bir şey yapmam gerekiyor mu?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    <strong>Bir kontakt lens takma işlemi veya muayenesi sırasında şunları yapmanızı öneririz:</strong><br>
+                                    1. Güvendiğiniz saygın bir marka kontakt lens taktığınızdan emin olun<br>
+                                    2. Yanınıza almak için reçetenizin bir kopyasını isteyin<br>
+                                    Bir göz muayenesinden sonra, size reçetenizin bir kopyası verilmelidir ( aile hekimine gittiğinizde yapacağınız gibi). Doktorunuz size bunu size teklif etmezse, siz talep edebilirsiniz. Reçetenin kopyasını almayı unutursanız endişelenmeyin, e-postayla gönderilmesini istemek sadece 1 dakikalık bir telefon görüşmesi sürer.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Göz doktorum bana reçete mi vermiyor. Bu doğru mu?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Göz doktorunuz, kontakt lens takma işleminiz tamamlandıktan sonra size reçetenizin bir kopyasını vermek konusunda yasal bir yükümlülüğe sahiptir.
+                                    “Kontakt lens reçetesinde neler bulunmalı?” yazımıza bir göz atın.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ps-0">
+                                <h2 class="border-bottom pb-3 fw-bold">REÇETE SORULARI</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Reçetemi nerede bulabilirim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Reçete ayrıntılarınızı kontakt lens kutunuzda veya bireysel blister ambalajlarda bulabilirsiniz. Alternatif olarak, size söyleyebilecek olan göz doktorunuz yada gözlükcünüzü arayabilirsiniz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Kontakt lens reçetesinde neler bulunmalıdır?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Bireysel gereksinimlerinize bağlı olarak reçeteniz 3-7 değerden oluşacaktır. Çoğu kontakt lens reçetesi 3 değer içerir: Güç (SPH), Taban Eğrisi (BC) ve Çap (DİA). Astigmatınız ve/veya Presbiyopiniz varsa, reçeteniz en fazla 4 değer daha içerecektir (aşağıya bakınız).
+                                    <strong>Güç ,Numara, PWR,</strong> ihtiyaç duyduğunuz yakın veya uzak görüş düzeltmesinin gücüdür. Bu değer pozitif (Yakını göremeyen) , negatif (Uzağı göremeyen) veya 0.00 (Güç yok, 'Plano' olarak yazılabilir) olacaktır.
+                                    <strong>Taban eğrisi (B.C)</strong> Bu değer merceğin arkasının eğriliğini temsil eder. Bir kontakt lens için tipik değerler 8,3 ila 9,0 mm'dir.
+                                    <strong>Tüm Çap( DİA),</strong> merceğin genişliğine veya boyutuna karşılık gelir. Bir kontakt lens için tipik değerler 13,8 ila 14,5 mm'dir.
+                                    <strong>Silindir (CYL)</strong> değeri, ne kadar Astigmatizme sahip olduğunuzu gösterir. Sayı ne kadar büyük olursa, astigmat o kadar yüksek olur.
+                                    <strong>Eksen DERECE (AKS),</strong> merceğin astigmatizmayı düzeltmek için ihtiyaç duyduğu açıyı temsil eder.
+                                    <strong>Ekstra Güç (ADD),</strong> yakın görüş için gereken ek büyütmeyi temsil eder. <strong>Dominant</strong>, size hangi gözün ileri görüşlülüğe <strong>(D)</strong> ve hangi gözün yakın görüşe <strong>(N)</strong> hitap ettiğini söyler.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Kontakt lens kontrolü için ne sıklıkla muayeneye gitmem gerekiyor?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Kontakt lens kontrolü için 12 ayda bir göz doktorunuzu ziyaret etmelisiniz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">'Toric' veya 'Astigmatizm için' ne anlama geliyor?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    'Toric' kontakt lensler Astigmatizmi düzeltir. Bu, gözün korneasının mükemmel bir küre olmadığı, ancak daha çok bir kaşığın arkası veya bir ragbi topunun şekli olduğu zamandır. Göz, ışığı retinaya yeterince keskin bir şekilde odaklayamadığı için görüş bulanıktır.
+                                    Torik lens, gözünüze giren ışığın odağını düzeltir.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Bana neden belirli bir kontakt lens markası reçete edildi?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Herkesin farklı göz şekli ve kontakt lenslerinden özel gereksinimleri olduğu için. Gözlükçünüz, benzersiz ihtiyaçlarınızı en iyi şekilde karşıladığına inandıklarına göre belirli bir tip ve marka kontakt lens reçete edecektir.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Aylık kontakt lens takıyorum ve günlük kontakt lens denemek istiyorum (veya tam tersi)</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Doktorunuz ve optisyeniniz, kontakt lenslerinizi reçete ederken yaşam tarzınızı dikkate alacaktır. Bununla birlikte, aylık lenslerden günlük lenslere geçmenin (veya tam tersi) fayda sağlayacağını düşünüyorsanız, tavsiyelerini almak için göz doktorunuz ve optisyeninize danışmanızı öneririz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Görüşüm eskisi kadar keskin değil, numaralarımı değiştirmeli miyim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Görüşünüzün eskisi kadar keskin olmadığını düşünüyorsanız, son muayenenizden bu yana numaralarınız değişmiş olabilir. Size görme testi yapabilecek olan göz doktorunuza danışmanızı öneririz. Düzenli göz muayenesi yaptırmanız önemlidir çünkü görmeniz azaldıkça, reçetenizi güncellemediyseniz, gözlerinizi yoruyor olabilirsiniz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ps-0">
+                                <h2 class="border-bottom pb-3 fw-bold">DAHA FAZLA BİLGİ</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger"><a href="" class="text-danger">Lenssepeti.com.tr</a>'de kontakt lensler neden bu kadar ucuz?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    <a href="" class="text-primary">Lenssepeti.com.tr</a>'de tüm kontakt lenslerimizi, solüsyonlarımızı ve aksesuarlarımızı toptan satın alıyoruz ve piyasadaki diğer satıcılardan daha ucuz fiyatlar sunarak tasarruflarımızı size aktarabiliyoruz. Fiyatlar daha düşük olabilir ama ürünlerimizin kalitesinden asla ödün vermiyoruz. Yalnızca en kaliteli ürünleri sattığımızdan emin olmak için tüm ürünlerimizi doğrudan Türkiye deki üreticisinden alıyoruz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Açılış saatleriniz nedir?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Müşteri hizmetleri ekibimiz aramalarınızı ve e-postalarınızı Pzt - Cum, 09:00 - 17:00 arasında yanıtlamak için hazırdır.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Şirket Bilgisi</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    <a href="" class="text-primary">Lenssepeti.com.tr</a>'e Türkiye'de güvenilir bir çevrimiçi kontakt lens, solüsyon ve aksesuar satıcısıdır. En kaliteli ürünleri, Göz doktorunuzun size reçete ettiği lenslerin aynısını, rakiplerimizde bulacağınızdan daha düşük fiyatlara sunuyoruz. Lenslerinizi <a href="" class="text-primary">Lenssepeti.com.tr</a>'de çevrimiçi sipariş etme ve doğrudan kapınıza teslim ettirmenin rahatlığını yaşayın. Hızlı sevkiyat sürelerimizle gurur duyuyoruz, siparişlerin %80'i aynı gün gönderiliyor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger"><a href="" class="text-danger">Lenssepeti.com.tr</a> ile nasıl iletişim kurabilirim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    <a href="" class="text-primary">Lenssepeti.com.tr</a> ile e-posta ve telefon yoluyla iletişime geçebilirsiniz.<br><br>
+                                    <strong>Sabit hatt:</strong> 0850 307 46 75<br>
+                                    <strong>Bize e-posta gönderin:</strong> <a href="" class="text-primary">info@lenssepeti.com.tr</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger"><a href="" class="text-danger">Lenssepeti.com.tr</a>'eye kontakt lens ve aksesuarları kim sağlıyor?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Tüm kontakt lenslerimizi doğrudan dört önde gelen küresel üreticiden alıyoruz; ACUVUE , Bausch & Lomb , CIBA Vision / ALCON ve CooperVision . Solüsyonları ve aksesuarlarımızı da bu üreticilerden alıyoruz.<br><br>
+
+                                    <strong>Daha fazla iletişim bilgisini 'Bize Ulaşın' sayfasında bulabilirsiniz .</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Neden başka bir kontakt lens tedarikçisi yerine <a href="" class="text-danger">Lenssepeti.com.tr</a>'den sipariş vermeliyim?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    <a href="" class="text-primary">Lenssepeti.com.tr</a>'de tüm müşterilerimize karşı tamamen dürüst olmayı hedefliyoruz ve müşterilerimizi bize karşı dürüst olmaya teşvik ediyoruz. Tüm müşterilerimizin güvenini kazanmanın , ünlü bir marka olmaktan ve sadece piyasadaki en düşük fiyatları sunmaktan çok daha önemli olduğuna inanıyoruz.<br><br>
+                                    Lütfen aşağıdaki 'Hangi çevrimiçi kontakt lens tedarikçisini kullanacağıma nasıl karar veririm?' bölümümüzü okuyun. Bu, çevrimiçi olarak kontakt lens satın almak isteyen ve <a href="" class="text-primary">Lenssepeti.com.tr</a>'eyi tanımayan kişiler için objektif olarak yazılmıştır. Ancak <a href="" class="text-primary">Lenssepeti.com.tr</a>'nin belirtilen tüm kriterlere uygun olduğuna inanıyorsanız bizden sipariş vermelisiniz. Değilse, lütfen <a href="" class="text-primary">info@lenssepeti.com.tr</a>'eye e-posta göndererek nedenini bize bildirin; önerilerinizi yerine getirmek için çok çalışacağız.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Hangi çevrimiçi kontakt lens tedarikçisini kullanacağıma nasıl karar veririm?</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    Bu bölümün amacı, kontakt lenslerinizi nereden alacağınızı seçerken sizin için en iyi kararı vermenize yardımcı olmaktır. Lenslerinizi çevrimiçi satın almayı düşünüyorsanız, bu bölümü baştan sona okumalısınız. Lenslerinizi başka bir yerden satın almaya karar verseniz bile, tedarikçinizi seçerken daha bilinçli bir seçim yapmanıza yardımcı olduğumuzu düşünmek isteriz.<br><br>
+                                    İnternetten kontakt lens satın almak, kitap gibi 'standart' bir ürünü internetten satın almakla aynı şey değildir. <a href="" class="text-primary">Lenssepeti.com.tr</a>'de olsun yada başka bir çevrimiçi kontakt lens satıcısı seçerken şunları göz önünde bulundurmanızı öneririz:<br>
+                                    • Tedarikçi lenslerinizi nasıl takacağınız ve bakımını yapacağınız konusunda tavsiye veriyor mu?<br>
+                                    • Kontakt lens fiyatları rekabetçi mi?<br>
+                                    • Kontakt lensler Türkiye'den mi gönderiliyor?<br>
+                                    Genel olarak bir e-ticaret sitesi seçerken Lenssepeti.com.tr'de şunları göz önünde bulundurmanızı öneririz:<br>
+                                    • Web sitesi profesyonel görünüyor mu?<br>
+                                    • Telefon numarası/iletişim bilgileri belirgin bir konumda mı görüntüleniyor?<br>
+                                    • Sipariş sürecinde istedikleri kişisel bilgilere neden ihtiyaç duyduklarını size söylüyorlar mı?<br>
+                                    • Şirketin %100 iade politikası var mı?<br>
+                                    • Şirket, teslimat ve kargo masrafları konusunda önceden bilgi veriyor mu?<br><br>
+                                    Yukarıdaki tüm sorulara güvenle "evet" yanıtı verebileceğiniz bir kontakt lens satıcısı bulursanız, güvenilir bir şirketten sipariş verdiğinizden emin olabilirsiniz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Lens tedarikcimi arayıp reçetemi isteme konusunda kendimi garip hissediyorum</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    <a href="" class="text-primary">Lenssepeti.com.tr</a>'e, bazı müşterilerimizin lenslerini başka bir yerden satın almak için kullanacaklarını bildikleri için tedarikçilerinden reçetelerinin bir kopyasını istemekten rahatsız olduklarını biliyoruz. Bununla birlikte, adres değişikliği veya bir sağlık sigortasının talebi gibi tekar bir göz muayenesi, reçetenizin bir kopyasına ihtiyaç duyabileceğiniz birçok neden vardır. Tedarikçinizin size reçetenizin bir kopyasını sağlamak için yasal bir yükümlülüğü vardır ve çoğu firma, talebinizi geri çevirmeyecektir.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3">
+                                    <strong class="text-danger">Kontak Lens Terimleri Sözlüğü</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col ps-0">
+                                <p class="mb-3 fw-bold">
+                                    <strong class="text-primary">Asferik :</strong> Sınırda astigmatizmi olan veya presbiyopi geliştirmeye yeni başlayanlar için birinci sınıf kontakt lensler<br><br>
+                                    <strong class="text-primary">Astigmat :</strong> Astigmatı olan hastalarda korneanın düzensiz bir eğriliği vardır, bu eğrilikte kırılan ışık ışınları bükülerek odak dışına çıkar ve bu da bozuk görüşe neden olur. Astigmatı olan kişiler genellikle bu bozuklukla doğarlar ve yaşla birlikte kötüleşmezler<br><br>
+                                    <strong class="text-primary">Axis (Aks):</strong> Lensin astigmatizmayı düzeltmesi gereken ekseni temsil eder<br><br>
+                                    <strong class="text-primary">Taban Eğrisi( Base Curve) B.C  :</strong> Kontakt lensin arkasındaki eğriliği temsil eden değer<br><br>
+                                    <strong class="text-primary">Bifokal  :</strong> İki veya daha fazla görüntüleme bölgesi olan kontakt lensler<br><br>
+                                    <strong class="text-primary">Temizleme Solüsyonu :</strong> Kontakt lenslerden protein ve partikül gibi birikintilerin çıkarılmasına yardımcı olan sıvı<br><br>
+                                    <strong class="text-primary">Renkli Lens  :</strong> Göz rengini değiştirmek için renk tonu veya renk eklenmiş bir kontakt lens<br><br>
+                                    <strong class="text-primary">ColorBlends  :</strong> CIBA Vision / Alcon renkli camların markası, FreshLook ColorBlends,
+Kornea: Gözün önünü kaplayan şeffaf, kubbe şeklindeki saydam tabaka. Gözün odaklama gücünün 2/3'ünü sağlayan güçlü bir kırılma gücüne sahip yüzey.
+<br><br>
+                                    <strong class="text-primary">Kontakt Lens :</strong> Uzağı veya yakını görememenin düzeltilmesi için kornea üzerine oturacak şekilde tasarlanmış ince plastik malzeme<br><br>
+                                    <strong class="text-primary">Silindir ( CYL)  :</strong> Astigmatı olan hastalarda ne kadar düzeltme yapılması gerektiğinin ölçülmesi<br><br>
+                                    <strong class="text-primary">Günlük Kontakt Lens :</strong> Bir gün boyunca takılan kontakt lensler<br><br>
+                                    <strong class="text-primary">Deposits  :</strong> Kontakt lens üzerinde maddelerin (genellikle protein) birikmesi<br><br>
+                                    <strong class="text-primary">Tüm Çap (DİA) :</strong> Milimetre cinsinden ölçülen göz veya kontakt lens genişliği
+Dezenfeksiyon Solüsyonu: Lenslerinizden herhangi bir bakteriyi nötralize etmek için kullanılır
+<br><br>
+                                    <strong class="text-primary">Protein Temizleyici Tabletler veya Solüsyon  :</strong> Kontakt lenslerinizden istenmeyen proteinleri yok eder<br><br>
+                                    <strong class="text-primary">Göz Doktoru :</strong> Göz sağlığı uzmanı<br><br>
+                                    <strong class="text-primary">Hipermetrop  :</strong> Bir kişinin uzağı net görebildiği ancak yakını göremediği bir durum
+Monovizyon: Bir gözü hipermetrop ve diğerini miyopi için düzelterek presbiyopinin etkilerini sınırlama tekniği
+<br><br>
+                                    <strong class="text-primary">Çok odaklı lens Multifocal  :</strong> İkiden fazla görüntüleme bölgesine sahip bir kontakt lens<br><br>
+                                    <strong class="text-primary">Miyopi  :</strong> Bir kişinin yakını net bir şekilde görebildiği, ancak uzağı göremediği bir durum (Miyopluk)<br><br>
+                                    <strong class="text-primary">Gözlükçü (Optisyen)  :</strong> Göz doktorunun yazılı reçetesini takiben gözlük ve kontakt lens takma ve dağıtma lisansına sahip kişiler.<br><br>
+                                    <strong class="text-primary">Oksijen Geçirgenliği :</strong> Kontakt lens materyalinden yayılabilen oksijen miktarı<br><br>
+                                    <strong class="text-primary">Plano  :</strong> Reçetesiz veya 0,00 (sıfır) pwr, genellikle kozmetik için kullanılır.<br><br>
+                                    <strong class="text-primary">Numara PWR :</strong> SPH ,güç ,numara<br><br>
+                                    <strong class="text-primary">Presbiyopi  :</strong> Göz merceğinin doğru odaklanma yeteneğini kaybederek yakını görmede zorluğa neden olduğu bir durum<br><br>
+                                    <strong class="text-primary">Durulama Solüsyonu  :</strong> Kullanıma hazırlanırken kontakt lenslerdeki kalıntıları gideren sıvı solüsyon<br><br>
+                                    <strong class="text-primary">Rx  :</strong> Reçete - Genelde reçeteye özel üretim yapılan lenslerde kullanılır.<br><br>
+                                    <strong class="text-primary">Solüsyon :</strong> Farklı kontakt lens türleri ve bireysel gereksinimler için yapılmış birçok farklı Solüsyon türü vardır<br><br>
+                                    <strong class="text-primary">Sphere (SPH) :</strong> Ne kadar düzeltme gerektiğinin ölçüsü, -20 ile +20 arasında bir numaradır.<br><br>
+                                    <strong class="text-primary">Renk tonu :</strong> Kontakt lens tipine bağlı olarak, kullanım veya görünürlük tonu, ışık filtreleme tonu, geliştirme tonu veya renk tonu gibi farklı renk tonu türleri vardır.<br><br>
+                                    <strong class="text-primary">Toric  :</strong> Astigmatizmanın etkilerini düzeltmek için tasarlanmış kontakt lens
+Görünürlük Renk Tonu: Kontak lenslerin daha kolay takma ve çıkarma için hafif renklendirilmiş lensler
+<br><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="container-fluid">
+                <div class="container py-5">
+                    <div class="row d-md-none">
+                        <div class="col mb-5 d-flex justify-content-center">
+                            <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush d-md-none" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    KONTAK LENS
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="acuvue.html">Acuvue</a>
+                                    <a href="air-optix.html">Air Optix</a>
+                                    <a href="biofinity.html">Biofiniti</a>
+                                    <a href="clariti.html">Clariti</a>
+                                    <a href="dailies.html">Dailies</a>
+                                    <a href="everclear.html">everclear</a>
+                                    <a href="freshlook.html">Freshlook</a>
+                                    <a href="daily-contact-lenses.html">Günlük Lensler</a>
+                                    <a href="two-weekly-contact-lenses.html">İki Haftalık</a>
+                                    <a href="monthly-contact-lenses.html">Aylık Lensler</a>
+                                    <a href="toric-contact-lenses.html">Astigmatizma için Torikler</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    GÖZ BAKIMI
+                                </button>
+                            </h2>
+                            <div id="flush-collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="dry-eye-treatments.html">Kuru Göz Tedavileri</a>
+                                    <a href="eye-drops.html">Gözyaşı</a>
+                                    <a href="eye-vitamins.html">Göz Vitaminleri</a>
+                                    <a href="hygiene-lid-care.html">Hijyen & Kapak Bakımı</a>
+                                    <a href="eye-wash-sprays.html">Göz Yıkama ve Spreyler</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    ÇÖZÜMLER
+                                </button>
+                            </h2>
+                            <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="multi-purpose-solutions.html">Çok amaçlı</a>
+                                    <a href="cleaners-salines.html">Temizleyiciler ve Salinler</a>
+                                    <a href="gas-permeable-solutions.html">Gaz Geçirgen</a>
+                                    <a href="travel-packs-solutions.html">Travel Packs</a>
+                                    <a href="hydrogen-peroxide-solutions.html">Hidrojen peroksit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    TELEFON DESTEĞİ
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <a href="" class="mb-0">UK - 020 7768 5000</a>
+                                    <p class="mb-0">Pazartesi - Cuma: 8:00 to 21:00</p>
+                                    <p>Cumartesi - Pazar: 08:00 - 18:00</p>
+                                    <a href="" class="mb-0">USA - 1 800 870 0741</a>
+                                    <p class="mb-0">Pazartesi - Cuma: 8:00 to 21:00 GMT</p>
+                                    <p>Cumartesi - Pazar: 08:00 to 18:00 GMT</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    POSTA ADRESİMİZ
+                                </button>
+                            </h2>
+                            <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <p class="mb-0">Doğrudan Vizyon</p>
+                                    <p class="mb-0">Birim 2 Hudson Mahkemesi</p>
+                                    <p class="mb-0">Büyük Kuzey Yolu, York İş Parkı</p>
+                                    <p class="mb-4">Nether Poppleton, YORK, YO26 6RB</p>
+                                    <a href="" class="text-primary fw-bold">İade ve Geri Ödeme Politikası</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    E-POSTA DESTEĞİ
+                                </button>
+                            </h2>
+                            <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <p class="mb-0">E-posta yoluyla ulaşın</p>
+                                    <a href="#" class="text-primary fw-bold">help@visiondirect.co.uk</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    HİZMETLER
+                                </button>
+                            </h2>
+                            <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="#">Hakkımızda</a>
+                                    <a href="#">Blog</a>
+                                    <a href="#">Şartlar ve koşullar</a>
+                                    <a href="#">Gizlilik Politikası</a>
+                                    <a href="#">Çerez politikası</a>
+                                    <a href="#">İştirakler</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    ÜLKELER
+                                </button>
+                            </h2>
+                            <div id="flush-collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="#">Belçika</a>
+                                    <a href="#">Fransa</a>
+                                    <a href="#">İrlanda</a>
+                                    <a href="#">İtalya</a>
+                                    <a href="#">Hollanda</a>
+                                    <a href="#">İspanya</a>
+                                    <a href="#" class="fw-bold">Birleşik Krallık</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pb-5 border-bottom d-none d-md-flex">
+                        <div class="col-12 col-md mb-5 mb-md-0">
+                            <img src="./assets/src/img/logo.jpg" class="logo" class="me-3" alt="">
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">KONTAK LENS</h6>
+                            <a href="acuvue.html">Acuvue</a>
+                            <a href="air-optix.html">Air Optix</a>
+                            <a href="biofinity.html">Biofiniti</a>
+                            <a href="clariti.html">Clariti</a>
+                            <a href="dailies.html">Dailies</a>
+                            <a href="everclear.html">everclear</a>
+                            <a href="freshlook.html">Freshlook</a>
+                            <a href="daily-contact-lenses.html">Günlük Lensler</a>
+                            <a href="two-weekly-contact-lenses.html">İki Haftalık</a>
+                            <a href="monthly-contact-lenses.html">Aylık Lensler</a>
+                            <a href="toric-contact-lenses.html">Astigmatizma için Torikler</a>
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">GÖZ BAKIMI</h6>
+                            <a href="dry-eye-treatments.html">Kuru Göz Tedavileri</a>
+                            <a href="eye-drops.html">Gözyaşı</a>
+                            <a href="eye-vitamins.html">Göz Vitaminleri</a>
+                            <a href="hygiene-lid-care.html">Hijyen & Kapak Bakımı</a>
+                            <a href="eye-wash-sprays.html">Göz Yıkama ve Spreyler</a>
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">ÇÖZÜMLER</h6>
+                            <a href="multi-purpose-solutions.html">Çok amaçlı</a>
+                            <a href="cleaners-salines.html">Cleaners & Salines</a>
+                            <a href="gas-permeable-solutions.html">Gaz Geçirgen</a>
+                            <a href="travel-packs-solutions.html">Seyahat Paketleri</a>
+                            <a href="hydrogen-peroxide-solutions.html">Hidrojen peroksit</a>
+                        </div>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-12 col-md d-flex flex-column align-items-center align-items-md-baseline">
+                            <h6 class="fw-bold mb-5">KABUL EDİYORUZ</h6>
+                            <div>
+                                <img src="./assets/src/img/857_visa.jpg" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/mastercard-681.png" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/Maestro_2016.svg.png" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/PayPal_2023_Logo.jpg" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/American-Express-logo.jpg" class="img-fluid" width="64" height="48" alt="">
+                            </div>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="phone-support">
+                            <h6 class="fw-bold mb-4">TELEFON DESTEĞİ</h6>
+                            <a href="#" class="mb-0">UK - 020 7768 5000</a>
+                            <p class="mb-0">Pazartesi - Cuma: 8:00 to 21:00</p>
+                            <p>Cumartesi - Pazar: 08:00 - 18:00</p>
+                            <a href="#" class="mb-0">USA - 1 800 870 0741</a>
+                            <p class="mb-0">Pazartesi - Cuma: 8:00 to 21:00 GMT</p>
+                            <p>Cumartesi - Pazar: 08:00 to 18:00 GMT</p>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="postal-address">
+                            <h6 class="fw-bold mb-4">POSTA ADRESİMİZ</h6>
+                            <p class="mb-0">Doğrudan Vizyon</p>
+                            <p class="mb-0">Birim 2 Hudson Mahkemesi</p>
+                            <p class="mb-0">Büyük Kuzey Yolu, York İş Parkı</p>
+                            <p class="mb-4">Nether Poppleton, YORK, YO26 6RB</p>
+                            <a href="#" class="text-primary fw-bold">İade ve Geri Ödeme Politikası</a>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="email-support">
+                            <h6 class="fw-bold mb-4">E-POSTA DESTEĞİ</h6>
+                            <p class="mb-0">E-posta yoluyla ulaşın</p>
+                            <a href="#" class="text-primary fw-bold">help@visiondirect.co.uk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer-social-media">
+            <div class="container-fluid">
+                <div class="container py-4">
+                    <div class="row mb-2">
+                        <div class="col-7 d-none d-lg-flex">
+                            <a href="#">Hakkımızda</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Şartlar ve koşullar</a>
+                            <a href="#">Gizlilik Politikası</a>
+                            <a href="#">Çerez politikası</a>
+                            <a href="#">İştirakler</a>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex justify-content-center">
+                            <img src="./assets/src/img/icons8-facebook-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-instagram-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-tiktok-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-twitter-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-youtube-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-linkedin-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-pinterest-48.png" class="img-fluid" width="24" height="24" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7 d-none d-lg-flex">
+                            <a href="#">Belçika</a>
+                            <a href="#">Fransa</a>
+                            <a href="#">İrlanda</a>
+                            <a href="#">İtalya</a>
+                            <a href="#">Hollanda</a>
+                            <a href="#">İspanya</a>
+                            <a href="#" class="fw-bold">Birleşik Krallık</a>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex justify-content-center">
+                            <p class="fw-bold ms-4">&copy; 2023 Vision Direct. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>

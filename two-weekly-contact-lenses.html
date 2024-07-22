@@ -1,0 +1,2001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="container">
+                <div class="row d-none d-lg-flex py-4">
+                    <div class="col-3">
+                        <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                    </div>
+                    <div class="col-4 ms-auto">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-text search p-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2 header d-flex align-items-center justify-content-evenly">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                        <a href="" class="text-decoration-none">020 7768 5000</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container-fluid container-lg">
+                    <div class="row">
+                        <div class="col-8 py-2 px-0 py-lg-0">
+                            <nav class="navbar navbar-expand-lg navbar-dark py-0">
+                                <div class="container">
+                                    <button type="button" class="btn border d-lg-none" data-bs-toggle="modal" data-bs-target="#modal">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="dropdown d-none d-lg-flex" id="contact-lenses">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Contact Lenses
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex" id="eye-care">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Eye Care
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex" id="solutions">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Solutions
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <a href="" class="btn btn-transparent text-white border-0 text-decoration-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Help & News
+                                        </a>
+                                    </div>
+                                    <div class="col-1 ms-4 me-auto d-lg-none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="col-6 d-lg-none">
+                                        <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                                    </div>
+                                </div>
+                            </nav>
+                            <ul class="d-menu ps-0" id="contact-lenses2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="acuvue"><a class="dropdown-item mb-2 border-end border-primary border-4" href="acuvue.html">Acuvue</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                                <img src="./assets/src/img/446.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/447.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/448.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/449.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/450.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/451.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/452.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/453.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/454.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="air-optix"><a class="dropdown-item mb-2" href="air-optix.html">Air Optix</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/455.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/456.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/457.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/458.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/459.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/460.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/461.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/462.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="biofiniti"><a class="dropdown-item mb-2" href="biofinity.html">Biofiniti</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/463.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/464.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/465.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/466.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/467.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/468.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/469.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/470.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/471.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="clariti"><a class="dropdown-item mb-2" href="clariti.html">Clariti</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/472.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/473.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/474.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/475.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="dailies"><a class="dropdown-item mb-2" href="dailies.html">Dailies</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/476.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/477.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/478.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/479.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/480.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/481.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/482.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/483.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/484.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="everclear"><a class="dropdown-item mb-2" href="everclear.html">everclear</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/485.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/486.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/487.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/488.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/489.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/490.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/491.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/492.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/493.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="freshlook"><a class="dropdown-item mb-2" href="freshlook.html">Freshlook</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/494.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/495.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/496.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/497.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="daily-lenses"><a class="dropdown-item mb-2" href="daily-contact-lenses.html">Daily Lenses</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/498.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/499.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/500.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/501.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/502.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/503.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/504.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/505.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/506.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="two-weekly"><a class="dropdown-item mb-2" href="two-weekly-contact-lenses.html">Two Weekly</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/507.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/508.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/509.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/510.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/511.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/512.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/513.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/514.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/515.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="monthly-lenses"><a class="dropdown-item mb-2" href="monthly-contact-lenses.html">Monthly Lenses</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/516.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/517.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/518.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/519.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/520.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/521.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/522.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/523.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/524.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="torics-for-astigmatism"><a class="dropdown-item mb-2" href="toric-contact-lenses.html">Torics for Astigmatism</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/525.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/526.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/527.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/528.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/529.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/530.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/531.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/532.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/533.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            <ul class="d-menu ps-0" id="eye-care2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="dry-eye-treatments"><a class="dropdown-item mb-2 border-end border-primary border-4" href="dry-eye-treatments.html">Dry Eye Treatments</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/534.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/535.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/536.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/537.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/538.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/539.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-drops"><a class="dropdown-item mb-2" href="eye-drops.html">Eye Drops</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/540.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/541.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/542.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/543.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/544.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/545.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-vitamins"><a class="dropdown-item mb-2" href="eye-vitamins.html">Eye Vitamins</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/546.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/547.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/548.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/549.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="hygiene-lid-care"><a class="dropdown-item mb-2" href="hygiene-lid-care.html">Hygiene & Lid Care</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/550.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/551.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/552.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/553.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/554.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/555.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-wash-sprays"><a class="dropdown-item mb-2" href="eye-wash-sprays.html">Eye Wash & Sprays</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/556.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/557.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            <ul class="d-menu ps-0" id="solutions2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="multi-purpose"><a class="dropdown-item mb-2 border-end border-primary border-4" href="multi-purpose-solutions.html">Multi-purpose</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/558.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/559.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/560.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/561.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/562.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/563.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/564.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/565.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/566.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="cleaners-salines"><a class="dropdown-item mb-2" href="cleaners-salines.html">Cleaners & Salines</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/567.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/568.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="gas-permeable"><a class="dropdown-item mb-2" href="gas-permeable-solutions.html">Gas Permeable</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/569.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/570.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/571.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/572.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/573.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="travel-packs"><a class="dropdown-item mb-2" href="travel-packs-solutions.html">Travel Packs</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/574.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/575.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/576.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/577.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/578.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="hydrogen-peroxide"><a class="dropdown-item mb-2" href="hydrogen-peroxide-solutions.html">Hydrogen Peroxide</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/579.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/580.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="col-3 d-flex align-items-center">
+                            <a href="login.html" class="text-decoration-none text-white d-none d-lg-flex me-4 ms-auto">Log In</a>
+                        </div>
+                        <div class="col-1 d-flex justify-content-end bag">
+                            <a href="" class="text-decoration-none text-white d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" class="bi bi-handbag" viewBox="0 0 16 16">
+                                    <path d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2zm3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6h4z"/>
+                                </svg>
+                                <p class="mb-0 d-none d-lg-flex ms-2">€0.00</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal" tabindex="-1">
+                        <div class="modal-dialog modal-fullscreen-lg-down">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-0 py-0">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Contact Lenses By Brand
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="acuvue.html">Acuvue</a>
+                                                    <a href="air-optix.html">Air Optix</a>
+                                                    <a href="biofinity.html">Biofiniti</a>
+                                                    <a href="clariti.html">Clariti</a>
+                                                    <a href="dailies.html">Dailies</a>
+                                                    <a href="everclear.html">everclear</a>
+                                                    <a href="freshlook.html">Freshlook</a>
+                                                    <a href="daily-contact-lenses.html">Daily Lenses</a>
+                                                    <a href="two-weekly-contact-lenses.html">Two Weekly</a>
+                                                    <a href="monthly-contact-lenses.html">Monthly Lenses</a>
+                                                    <a href="toric-contact-lenses.html">Torics for Astigmatism</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Eye Care
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="dry-eye-treatments.html">Dry Eye Treatments</a>
+                                                    <a href="eye-drops.html">Eye Drops</a>
+                                                    <a href="eye-vitamins.html">Eye Vitamins</a>
+                                                    <a href="hygiene-lid-care.html">Hygiene & Lid Care</a>
+                                                    <a href="eye-wash-sprays.html">Eye Wash & Sprays</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Solutions
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="multi-purpose-solutions.html">Multi-purpose</a>
+                                                    <a href="cleaners-salines.html">Cleaners & Salines</a>
+                                                    <a href="gas-permeable-solutions.html">Gas Permeable</a>
+                                                    <a href="travel-packs-solutions.html">Travel Packs</a>
+                                                    <a href="hydrogen-peroxide-solutions.html">Hydrogen Peroxide</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <a href="#" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Delivery Information</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <a href="#" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Contact Us</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item border-bottom">
+                                            <div class="modal-body bg-dark">
+                                                <a href="login.html" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Login</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <div class="d-grid mt-2 gap-2">
+                                                  <a href="" id="phone" type="button" class="btn rounded-5 py-3 text-decoration-none fw-bold text-white d-flex justify-content-center align-items-center">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                                    </svg>
+                                                    <p class="text-white fw-bold mb-0 ms-3 fs-6">UK - 020 7768 5000</p>
+                                                  </a>
+                                                  <p class="fw-bold">Open Monday - Friday 8:00 - 21:00, and Saturday - Sunday 8:00 - 18:00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="discount">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 py-2 d-flex flex-column flex-md-row justify-content-md-center align-items-center">
+                            <p class="fw-bold mb-0 me-4">Treat your eyes with our FREE everclear ELITE trial</p>
+                            <button type="button" class="btn btn-primary rounded-5 px-4 py-1 border-0">Try now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid alt-header d-none d-lg-flex">
+                <div class="container px-0">
+                    <div class="row py-2">
+                        <div class="col-12 col-lg-3 col-xxl-2 d-flex me-xxl-5">
+                            <img src="./assets/src/svg/free-replacement-lenses.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">Up to 45% cheaper</p>
+                        </div>
+                        <div class="col-12 col-lg-3 col-xxl-2 d-flex me-xxl-5">
+                            <img src="./assets/src/svg/100-day-guarantee.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">365-day guarantee</p>
+                        </div>
+                        <div class="col-12 col-lg-3 col-xxl-2 d-flex me-xxl-5">
+                            <img src="./assets/src/svg/next-day-delivery.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">Next day delivery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/free-replacement-lenses.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">Up to 45% cheaper</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/100-day-guarantee.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">365-day guarantee</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/next-day-delivery.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">Next day delivery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col p-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb d-flex justify-content-center justify-content-lg-start">
+                                <li class="breadcrumb-item "><a href="#" class="text-primary">Brands</a></li>
+                                <li class="breadcrumb-item active text-black" aria-current="page">Two Weekly Contact Lenses</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div class="container pt-3">
+                <div class="row pe-3">
+                    <div class="d-none d-md-flex flex-md-column col-md-2 col-xl-3 px-0">
+                        <h5 class="border-bottom pb-3 mt-3 me-3">Shop by Brands</h5>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <a href="acuvue.html">Acuvue</a>
+                            </div>
+                            <div class="col">
+                                <a href="air-optix.html">Air Optix</a>
+                            </div>
+                            <div class="col">
+                                <a href="biofinity.html">Biofinity</a>
+                            </div>
+                            <div class="col">
+                                <a href="clariti.html">Clariti</a>
+                            </div>
+                            <div class="col">
+                                <a href="everclear.html">everclear</a>
+                            </div>
+                            <div class="col">
+                                <a href="dailies.html">Dailies</a>
+                            </div>
+                            <div class="col">
+                                <a href="freshlook.html">Freshlook</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">MyDay</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Proclear</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">PureVision</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">SofLens</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="text-primary">See More >></a>
+                            </div>
+                        </div>
+                        <h5 class="border-bottom pb-3 mt-4 me-auto">Shop by Type</h5>
+                        <div class="row d-flex flex-column side-menu">
+                            <div class="col">
+                                <a href="#">Contact Lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="toric-contact-lenses.html">Torics for Astigmatism</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Coloured Contact Lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="">Multifocal Contact Lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Silicone Hydrogel Lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Contact Lens Solutions</a>
+                            </div>
+                            <div class="col">
+                                <a href="eye-drops.html">Eye Drops</a>
+                            </div>
+                        </div>
+                        <h5 class="border-bottom pb-3 mt-4 me-auto">Shop by Wear</h5>
+                        <div class="row d-flex flex-column side-menu">
+                            <div class="col">
+                                <a href="daily-contact-lenses.html">Daily Lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="monthly-contact-lenses.html">Monthly Lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="two-weekly-contact-lenses.html">Two Weekly Lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Extended Wear Lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="text-primary">View All >></a>
+                            </div>
+                        </div>
+                        <h5 class="border-bottom pb-3 mt-4 me-auto">Optician Equivalents</h5>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <a href="#">Boots</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Daysoft</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Hubble</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Specsavers | easyvision</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Vision Express</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Waldo</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="text-primary">See More >></a>
+                            </div>
+                        </div>
+                        <h5 class="border-bottom pb-3 mt-4 me-auto">Best Sellers</h5>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <a href="#">1 Day Acuvue Moist</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">everclear ELITE</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Dailies AquaComfort Plus</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">everclear ADM</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Acuvue Oasys</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">1 Day Acuvue Moist for</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Astigmatism</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="text-primary">See More >></a>
+                            </div>
+                        </div>
+                        <h5 class="border-bottom pb-3 mt-4 me-auto">Buyer's Guides</h5>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <a href="#">COVID-19 contact lens safety tips</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Coronavirus and your eyes</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">How to put in contact lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">How to take out contact lenses</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">How to use eye drops</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="text-primary">See More >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10 col-xl-9">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="border-bottom pb-3 fw-bold">Two Weekly Contact Lenses</h2>
+                            </div>
+                        </div>
+                        <div class="row border-bottom pb-5 d-flex justify-content-between d-none d-lg-flex">
+                            <div class="col-5 d-flex align-items-center">
+                                <p class="mt-4">Filters: </p>
+                                <div class="dropdown mt-2 ms-3 me-3">
+                                    <button class="btn border dropdown-toggle py-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Brand
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <div class="list-group">
+                                            <label class="list-group-item border-0">
+                                              <input class="form-check-input me-1" type="checkbox" value="">
+                                              Acuvue (15)
+                                            </label>
+                                            <label class="list-group-item border-0">
+                                              <input class="form-check-input me-1" type="checkbox" value="">
+                                              Everclear (1)
+                                            </label>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="dropdown mt-2" id="type">
+                                    <button class="btn border dropdown-toggle py-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Type
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <div class="list-group">
+                                            <label class="list-group-item border-0">
+                                              <input class="form-check-input me-1" type="checkbox" value="">
+                                              Multifocal (4)
+                                            </label>
+                                            <label class="list-group-item border-0">
+                                              <input class="form-check-input me-1" type="checkbox" value="">
+                                              Standard (16)
+                                            </label>
+                                            <label class="list-group-item border-0">
+                                              <input class="form-check-input me-1" type="checkbox" value="">
+                                              Toric for astigmatism (5)
+                                            </label>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-5 d-flex align-items-center justify-content-end">
+                                <p class="mt-4">Sort by: </p>
+                                <div class="dropdown mt-2 ms-3">
+                                    <button class="btn border dropdown-toggle py-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Customer Favourites
+                                    </button>
+                                    <ul class="dropdown-menu" id="list-group">
+                                        <li><a class="dropdown-item" href="#">Customer favourites</a></li>
+                                        <li><a class="dropdown-item" href="#">Alphabetical order</a></li>
+                                        <li><a class="dropdown-item" href="#">Price low to high</a></li>
+                                        <li><a class="dropdown-item" href="#">Price high to low</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row border-bottom pb-5 mt-3 d-flex justify-content-between d-lg-none" id="filters">
+                            <div class="col-6 border border-start-0 d-flex justify-content-center">
+                                <button type="button" class="btn dropdown-toggle py-2 border-0" data-bs-toggle="modal" data-bs-target="#modalId">
+                                    Filters (0)
+                                </button>
+                                <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                                    <div class="modal-dialog modal-fullscreen-lg-down" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalTitleId">FILTERS</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5 class="fw-bold mt-3">Brand</h5>
+                                                <div class="list-group">
+                                                    <label class="list-group-item border-0">
+                                                        <input class="form-check-input fs-6 me-1 my-auto" type="checkbox" value="">
+                                                    Acuvue (15)
+                                                    </label>
+                                                    <label class="list-group-item border-0">
+                                                        <input class="form-check-input fs-6 me-1 my-auto" type="checkbox" value="">
+                                                    Everclear (1)
+                                                    </label>
+                                                </div>
+                                                <h5 class="fw-bold mt-4">Type</h5>
+                                                <div class="list-group">
+                                                    <label class="list-group-item border-0">
+                                                        <input class="form-check-input fs-6 me-1 my-auto" type="checkbox" value="">
+                                                    Multifocal (4)
+                                                    </label>
+                                                    <label class="list-group-item border-0">
+                                                        <input class="form-check-input fs-6 me-1 my-auto" type="checkbox" value="">
+                                                    Standard (16)
+                                                    </label>
+                                                    <label class="list-group-item border-0">
+                                                        <input class="form-check-input fs-6 me-1 my-auto" type="checkbox" value="">
+                                                    Toric for astigmatism (5)
+                                                    </label>
+                                                </div>
+                                                <div class="d-grid gap-2">
+                                                  <button type="button" class="btn btn-primary px-5 py-2 rounded-5 mt-3 mx-auto fs-5 fw-bold">Apply filters (0)</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 border border-end-0 d-flex justify-content-center">
+                                <button type="button" class="btn dropdown-toggle py-2 border-0" data-bs-toggle="modal" data-bs-target="#modalId2">
+                                    Customer Favourites
+                                </button>
+                                <div class="modal fade" id="modalId2" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                                    <div class="modal-dialog modal-fullscreen-lg-down" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalTitleId">SORT BY</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body d-flex flex-column align-items-center" id="sortBy">
+                                                <ul class="list-unstyled mt-4 w-100">
+                                                    <li><a class="dropdown-item mb-3 text-center py-1 sortBy-active" href="#">Customer favourites</a></li>
+                                                    <li><a class="dropdown-item mb-3 text-center py-1" href="#">Alphabetical order</a></li>
+                                                    <li><a class="dropdown-item mb-3 text-center py-1" href="#">Price low to high</a></li>
+                                                    <li><a class="dropdown-item mb-3 text-center py-1" href="#">Price high to low</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/168.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue Oasys</p>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-danger text-center text-decoration-line-through me-3">€28.50</p>
+                                            <span class="fw-bold text-black">€23.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/169.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue Oasys for Astigmatism</p>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-danger text-center text-decoration-line-through me-3">€39.00</p>
+                                            <span class="fw-bold text-black">€27.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/170.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">everclear PLUS</p>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-danger text-center text-decoration-line-through me-3">€17.99</p>
+                                            <span class="fw-bold text-black">€12.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 mt-lg-2">
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/171.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue 2</p>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-danger text-center text-decoration-line-through me-3">€21.50</p>
+                                            <span class="fw-bold text-black">€21.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/172.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue Oasys for Presbyopia</p>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-danger text-center text-decoration-line-through me-3">€36.50</p>
+                                            <span class="fw-bold text-black">€34.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/173.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue Oasys 12 Pack</p>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-danger text-center text-decoration-line-through me-3">€40.50</p>
+                                            <span class="fw-bold text-black">€46.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/174.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">everclear PLUS (trial pack)</p>
+                                        <div class="d-flex justify-content-center">
+                                            <span class="fw-bold text-black">€2.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/175.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue Advance</p>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-danger text-center text-decoration-line-through me-3">€19.99</p>
+                                            <span class="fw-bold text-black">€17.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/176.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue Advance for Astigmatism</p>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-danger text-center text-decoration-line-through me-3">€28.00</p>
+                                            <span class="fw-bold text-black">€25.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-12 col-sm">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/177.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue Oasys 24 Pack</p>
+                                        <div class="d-flex justify-content-center">
+                                            <span class="fw-bold text-black">€69.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm mt-3">
+                                <div class="card border-0">
+<a href="#">
+                                    <img class="card-img-top" src="./assets/src/img/178.jpg" alt="Title">
+</a>
+                                    <div class="card-body">
+                                        <p class="card-text text-center mb-0">Acuvue Oasys Multifocal</p>
+                                        <div class="d-flex justify-content-center">
+                                            <span class="fw-bold text-black">€39.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm mt-5 pt-5 mt-sm-0 pt-sm-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="container-fluid">
+                <div class="container py-5">
+                    <div class="row d-md-none">
+                        <div class="col mb-5 d-flex justify-content-center">
+                            <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush d-md-none" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    CONTACT LENSES
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="acuvue.html">Acuvue</a>
+                                    <a href="air-optix.html">Air Optix</a>
+                                    <a href="biofinity.html">Biofiniti</a>
+                                    <a href="clariti.html">Clariti</a>
+                                    <a href="dailies.html">Dailies</a>
+                                    <a href="everclear.html">everclear</a>
+                                    <a href="freshlook.html">Freshlook</a>
+                                    <a href="daily-contact-lenses.html">Daily Lenses</a>
+                                    <a href="two-weekly-contact-lenses.html">Two Weekly</a>
+                                    <a href="monthly-contact-lenses.html">Monthly Lenses</a>
+                                    <a href="toric-contact-lenses.html">Torics for Astigmatism</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    EYE CARE
+                                </button>
+                            </h2>
+                            <div id="flush-collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="dry-eye-treatments.html">Dry Eye Treatments</a>
+                                    <a href="eye-drops.html">Eye Drops</a>
+                                    <a href="eye-vitamins.html">Eye Vitamins</a>
+                                    <a href="hygiene-lid-care.html">Hygiene & Lid Care</a>
+                                    <a href="eye-wash-sprays.html">Eye Wash & Sprays</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    SOLUTIONS
+                                </button>
+                            </h2>
+                            <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="multi-purpose-solutions.html">Multi-purpose</a>
+                                    <a href="cleaners-salines.html">Cleaners & Salines</a>
+                                    <a href="gas-permeable-solutions.html">Gas Permeable</a>
+                                    <a href="travel-packs-solutions.html">Travel Packs</a>
+                                    <a href="hydrogen-peroxide-solutions.html">Hydrogen Peroxide</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    PHONE SUPPORT
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <a href="" class="mb-0">UK - 020 7768 5000</a>
+                                    <p class="mb-0">Mon - Fri: 8:00 to 21:00</p>
+                                    <p>Sat - Sun: 08:00 - 18:00</p>
+                                    <a href="" class="mb-0">USA - 1 800 870 0741</a>
+                                    <p class="mb-0">Mon - Fri: 8:00 to 21:00 GMT</p>
+                                    <p>Sat - Sun: 08:00 to 18:00 GMT</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    OUR POSTAL ADDRESS
+                                </button>
+                            </h2>
+                            <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <p class="mb-0">Vision Direct</p>
+                                    <p class="mb-0">Unit 2 Hudson Court</p>
+                                    <p class="mb-0">Great North Way, York Business Park</p>
+                                    <p class="mb-4">Nether Poppleton, YORK, YO26 6RB</p>
+                                    <a href="" class="text-primary fw-bold">Returns & Refunds Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    EMAIL SUPPORT
+                                </button>
+                            </h2>
+                            <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <p class="mb-0">Reach out via email on</p>
+                                    <a href="#" class="text-primary fw-bold">help@visiondirect.co.uk</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    SERVICES
+                                </button>
+                            </h2>
+                            <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="#">About Us</a>
+                                    <a href="#">Blog</a>
+                                    <a href="#">Terms & Conditions</a>
+                                    <a href="#">Privacy Policy</a>
+                                    <a href="#">Cookie Policy</a>
+                                    <a href="#">Affiliates</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    COUNTRIES
+                                </button>
+                            </h2>
+                            <div id="flush-collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="#">Belgium</a>
+                                    <a href="#">France</a>
+                                    <a href="#">Ireland</a>
+                                    <a href="#">Italy</a>
+                                    <a href="#">Netherlands</a>
+                                    <a href="#">Spain</a>
+                                    <a href="#" class="fw-bold">United Kingdom</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pb-5 border-bottom d-none d-md-flex">
+                        <div class="col-12 col-md mb-5 mb-md-0">
+                            <img src="./assets/src/img/logo.jpg" class="logo" class="me-3" alt="">
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">CONTACT LENSES</h6>
+                            <a href="acuvue.html">Acuvue</a>
+                            <a href="air-optix.html">Air Optix</a>
+                            <a href="biofinity.html">Biofiniti</a>
+                            <a href="clariti.html">Clariti</a>
+                            <a href="dailies.html">Dailies</a>
+                            <a href="everclear.html">everclear</a>
+                            <a href="freshlook.html">Freshlook</a>
+                            <a href="daily-contact-lenses.html">Daily Lenses</a>
+                            <a href="two-weekly-contact-lenses.html">Two Weekly</a>
+                            <a href="monthly-contact-lenses.html">Monthly Lenses</a>
+                            <a href="toric-contact-lenses.html">Torics for Astigmatism</a>
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">EYE CARE</h6>
+                            <a href="dry-eye-treatments.html">Dry Eye Treatments</a>
+                            <a href="eye-drops.html">Eye Drops</a>
+                            <a href="eye-vitamins.html">Eye Vitamins</a>
+                            <a href="hygiene-lid-care.html">Hygiene & Lid Care</a>
+                            <a href="eye-wash-sprays.html">Eye Wash & Sprays</a>
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">SOLUTIONS</h6>
+                            <a href="multi-purpose-solutions.html">Multi-purpose</a>
+                            <a href="cleaners-salines.html">Cleaners & Salines</a>
+                            <a href="gas-permeable-solutions.html">Gas Permeable</a>
+                            <a href="travel-packs-solutions.html">Travel Packs</a>
+                            <a href="hydrogen-peroxide-solutions.html">Hydrogen Peroxide</a>
+                        </div>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-12 col-md d-flex flex-column align-items-center align-items-md-baseline">
+                            <h6 class="fw-bold mb-5">WE ACCEPT</h6>
+                            <div>
+                                <img src="./assets/src/img/857_visa.jpg" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/mastercard-681.png" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/Maestro_2016.svg.png" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/PayPal_2023_Logo.jpg" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/American-Express-logo.jpg" class="img-fluid" width="64" height="48" alt="">
+                            </div>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="phone-support">
+                            <h6 class="fw-bold mb-4">PHONE SUPPORT</h6>
+                            <a href="#" class="mb-0">UK - 020 7768 5000</a>
+                            <p class="mb-0">Mon - Fri: 8:00 to 21:00</p>
+                            <p>Sat - Sun: 08:00 - 18:00</p>
+                            <a href="#" class="mb-0">USA - 1 800 870 0741</a>
+                            <p class="mb-0">Mon - Fri: 8:00 to 21:00 GMT</p>
+                            <p>Sat - Sun: 08:00 to 18:00 GMT</p>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="postal-address">
+                            <h6 class="fw-bold mb-4">OUR POSTAL ADDRESS</h6>
+                            <p class="mb-0">Vision Direct</p>
+                            <p class="mb-0">Unit 2 Hudson Court</p>
+                            <p class="mb-0">Great North Way, York Business Park</p>
+                            <p class="mb-4">Nether Poppleton, YORK, YO26 6RB</p>
+                            <a href="#" class="text-primary fw-bold">Returns & Refunds Policy</a>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="email-support">
+                            <h6 class="fw-bold mb-4">EMAIL SUPPORT</h6>
+                            <p class="mb-0">Reach out via email on</p>
+                            <a href="#" class="text-primary fw-bold">help@visiondirect.co.uk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer-social-media">
+            <div class="container-fluid">
+                <div class="container py-4">
+                    <div class="row mb-2">
+                        <div class="col-7 d-none d-lg-flex">
+                            <a href="#">About Us</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Cookie Policy</a>
+                            <a href="#">Affiliates</a>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex justify-content-center">
+                            <img src="./assets/src/img/icons8-facebook-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-instagram-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-tiktok-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-twitter-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-youtube-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-linkedin-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-pinterest-48.png" class="img-fluid" width="24" height="24" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7 d-none d-lg-flex">
+                            <a href="#">Belgium</a>
+                            <a href="#">France</a>
+                            <a href="#">Ireland</a>
+                            <a href="#">Italy</a>
+                            <a href="#">Netherlands</a>
+                            <a href="#">Spain</a>
+                            <a href="#" class="fw-bold">United Kingdom</a>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex justify-content-center">
+                            <p class="fw-bold ms-4">&copy; 2023 Vision Direct. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

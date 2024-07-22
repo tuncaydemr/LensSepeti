@@ -1,0 +1,2432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="container">
+                <div class="row d-none d-lg-flex py-4">
+                    <div class="col-3">
+                        <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                    </div>
+                    <div class="col-4 ms-auto">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-text search p-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2 header d-flex align-items-center justify-content-evenly">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                        <a href="" class="text-decoration-none">020 7768 5000</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container-fluid container-lg">
+                    <div class="row">
+                        <div class="col-8 py-2 px-0 py-lg-0">
+                            <nav class="navbar navbar-expand-lg navbar-dark py-0">
+                                <div class="container">
+                                    <button type="button" class="btn border d-lg-none" data-bs-toggle="modal" data-bs-target="#modal">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="dropdown d-none d-lg-flex" id="contact-lenses">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Kontak lens
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex" id="eye-care">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Göz bakımı
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex" id="solutions">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <button class="btn btn-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Çözümler
+                                        </button>
+                                    </div>
+                                    <div class="dropdown d-none d-lg-flex">
+                                        <i class="fa fa-safari me-2" aria-hidden="true"></i>
+                                        <a href="" class="btn btn-transparent text-white border-0 text-decoration-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Yardım ve Haberler
+                                        </a>
+                                    </div>
+                                    <div class="col-1 ms-4 me-auto d-lg-none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="col-6 d-lg-none">
+                                        <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                                    </div>
+                                </div>
+                            </nav>
+                            <ul class="d-menu ps-0" id="contact-lenses2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="acuvue"><a class="dropdown-item mb-2 border-end border-primary border-4" href="acuvue.html">Acuvue</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                                <img src="./assets/src/img/446.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/447.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/448.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/449.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/450.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/451.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/452.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/453.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/454.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="air-optix"><a class="dropdown-item mb-2" href="air-optix.html">Air Optix</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/455.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/456.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/457.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/458.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/459.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/460.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/461.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/462.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="biofiniti"><a class="dropdown-item mb-2" href="biofinity.html">Biofiniti</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/463.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/464.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/465.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/466.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/467.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/468.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/469.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/470.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/471.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="clariti"><a class="dropdown-item mb-2" href="clariti.html">Clariti</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/472.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/473.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/474.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/475.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="dailies"><a class="dropdown-item mb-2" href="dailies.html">Dailies</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/476.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/477.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/478.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/479.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/480.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/481.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/482.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/483.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/484.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="everclear"><a class="dropdown-item mb-2" href="everclear.html">everclear</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/485.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/486.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/487.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/488.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/489.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/490.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/491.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/492.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/493.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="freshlook"><a class="dropdown-item mb-2" href="freshlook.html">Freshlook</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/494.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/495.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/496.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/497.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="daily-lenses"><a class="dropdown-item mb-2" href="daily-contact-lenses.html">Günlük Lensler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/498.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/499.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/500.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/501.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/502.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/503.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/504.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/505.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/506.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="two-weekly"><a class="dropdown-item mb-2" href="two-weekly-contact-lenses.html">İki Haftalık</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/507.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/508.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/509.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/510.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/511.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/512.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/513.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/514.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/515.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="monthly-lenses"><a class="dropdown-item mb-2" href="monthly-contact-lenses.html">Aylık Lensler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/516.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/517.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/518.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/519.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/520.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/521.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/522.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/523.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/524.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="torics-for-astigmatism"><a class="dropdown-item mb-2" href="toric-contact-lenses.html">Astigmatizma için Torikler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/525.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/526.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/527.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/528.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/529.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/530.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/531.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/532.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/533.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            <ul class="d-menu ps-0" id="eye-care2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="dry-eye-treatments"><a class="dropdown-item mb-2 border-end border-primary border-4" href="dry-eye-treatments.html">Kuru Göz Tedavileri</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/534.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/535.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/536.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/537.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/538.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/539.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-drops"><a class="dropdown-item mb-2" href="eye-drops.html">Gözyaşı</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/540.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/541.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/542.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/543.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/544.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/545.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-vitamins"><a class="dropdown-item mb-2" href="eye-vitamins.html">Göz Vitaminleri</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/546.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/547.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/548.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/549.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="hygiene-lid-care"><a class="dropdown-item mb-2" href="hygiene-lid-care.html">Hijyen & Kapak Bakımı</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/550.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/551.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/552.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/553.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/554.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/555.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="eye-wash-sprays"><a class="dropdown-item mb-2" href="eye-wash-sprays.html">Göz Yıkama ve Spreyler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/556.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/557.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            <ul class="d-menu ps-0" id="solutions2">
+                                <div class="container" style="max-width: 1300px; margin: 0 auto;">
+                                    <div class="row">
+                                        <div class="col-2 pt-3 pe-0">
+                                            <li id="multi-purpose"><a class="dropdown-item mb-2 border-end border-primary border-4" href="multi-purpose-solutions.html">Çok amaçlı</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/558.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/559.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/560.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/561.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/562.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/563.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/564.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/565.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/566.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="cleaners-salines"><a class="dropdown-item mb-2" href="cleaners-salines.html">Temizleyiciler ve Salinler</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/567.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/568.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="gas-permeable"><a class="dropdown-item mb-2" href="gas-permeable-solutions.html">Gaz Geçirgen</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/569.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/570.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/571.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/572.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/573.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="travel-packs"><a class="dropdown-item mb-2" href="travel-packs-solutions.html">Seyahat Paketleri</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/574.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/575.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/576.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/577.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/578.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li id="hydrogen-peroxide"><a class="dropdown-item mb-2" href="hydrogen-peroxide-solutions.html">Hidrojen peroksit</a>
+                                                <ul class="dropend d-none d-flex flex-column justify-content-around">
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/579.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <a href="#">
+                                                            <img src="./assets/src/img/580.jpg" class="img-fluid" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-around">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-2">
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="col-3 d-flex align-items-center">
+                            <a href="login.html" class="text-decoration-none text-white d-none d-lg-flex me-4 ms-auto">Giriş Yap</a>
+                        </div>
+                        <div class="col-1 d-flex justify-content-end bag">
+                            <a href="" class="text-decoration-none text-white d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" class="bi bi-handbag" viewBox="0 0 16 16">
+                                    <path d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2zm3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6h4z"/>
+                                </svg>
+                                <p class="mb-0 d-none d-lg-flex ms-2">€0.00</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal" tabindex="-1">
+                        <div class="modal-dialog modal-fullscreen-lg-down">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-0 py-0">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Markaya Göre Kontakt Lensler
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="acuvue.html">Acuvue</a>
+                                                    <a href="air-optix.html">Air Optix</a>
+                                                    <a href="biofinity.html">Biofiniti</a>
+                                                    <a href="clariti.html">Clariti</a>
+                                                    <a href="dailies.html">Dailies</a>
+                                                    <a href="everclear.html">everclear</a>
+                                                    <a href="freshlook.html">Freshlook</a>
+                                                    <a href="daily-contact-lenses.html">Günlük Lensler</a>
+                                                    <a href="two-weekly-contact-lenses.html">İki Haftalık</a>
+                                                    <a href="monthly-contact-lenses.html">Aylık Lensler</a>
+                                                    <a href="toric-contact-lenses.html">Astigmatizma için Torikler</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Göz bakımı
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="dry-eye-treatments.html">Kuru Göz Tedavileri</a>
+                                                    <a href="eye-drops.html">Gözyaşı</a>
+                                                    <a href="eye-vitamins.html">Göz Vitaminleri</a>
+                                                    <a href="hygiene-lid-care.html">Hijyen & Kapak Bakımı</a>
+                                                    <a href="eye-wash-sprays.html">Göz Yıkama ve Spreyler</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Çözümler
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body d-flex flex-column">
+                                                    <a href="multi-purpose-solutions.html">Çok amaçlı</a>
+                                                    <a href="cleaners-salines.html">Temizleyiciler ve Salinler</a>
+                                                    <a href="gas-permeable-solutions.html">Gaz Geçirgen</a>
+                                                    <a href="travel-packs-solutions.html">Seyahat Paketleri</a>
+                                                    <a href="hydrogen-peroxide-solutions.html">Hidrojen peroksit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <a href="#" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Teslimat Bilgisi</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <a href="#" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Bize Ulaşın</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item border-bottom">
+                                            <div class="modal-body bg-dark">
+                                                <a href="login.html" class="modal-title bg-dark text-white text-decoration-none fw-normal ms-1" id="exampleModalToggleLabel2">Giriş Yap</a>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="modal-body bg-dark">
+                                                <div class="d-grid mt-2 gap-2">
+                                                  <a href="" id="phone" type="button" class="btn rounded-5 py-3 text-decoration-none fw-bold text-white d-flex justify-content-center align-items-center">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                                    </svg>
+                                                    <p class="text-white fw-bold mb-0 ms-3 fs-6">UK - 020 7768 5000</p>
+                                                  </a>
+                                                  <p class="fw-bold">Açık Pazartesi - Cuma 8:00 - 21:00, ve Cumartesi - Pazar 8:00 - 18:00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid alt-header d-none d-lg-flex">
+                <div class="container px-0">
+                    <div class="row py-2">
+                        <div class="col-12 col-lg-3 col-xxl-3 d-flex">
+                            <img src="./assets/src/svg/free-replacement-lenses.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">%45'e kadar daha ucuz</p>
+                        </div>
+                        <div class="col-12 col-lg-3 col-xxl-3 d-flex">
+                            <img src="./assets/src/svg/100-day-guarantee.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">365 gün garanti</p>
+                        </div>
+                        <div class="col-12 col-lg-3 col-xxl-3 d-flex">
+                            <img src="./assets/src/svg/next-day-delivery.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">Ertesi gün teslimat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/free-replacement-lenses.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">%45'e kadar daha ucuz</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/100-day-guarantee.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">365 gün garanti</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img src="./assets/src/svg/next-day-delivery.svg" class="img-fluid" alt="">
+                            <p class="mb-0 fw-bold ms-2 service">Ertesi gün teslimat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col p-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb d-flex justify-content-center justify-content-lg-start">
+                                <li class="breadcrumb-item"><a href="#" class="text-primary">Kontak lens</a></li>
+                                <li class="breadcrumb-item"><a href="#" class="text-primary">Acuvue</a></li>
+                                <li class="breadcrumb-item active text-black" aria-current="page">1 Günlük Acuvue Nemli</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div class="container mt-4">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-12 col-md-7 p-0 pe-5">
+                        <div class="row">
+                            <div class="col d-lg-flex align-items-center p-0">
+                                <h4 class="fw-bold me-2">Astigmatizma için 1 Günlük Acuvue Moist</h4>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-lg-flex align-items-center p-0">
+                                <p class="mb-0 m-0 fs-6 fw-bold"> - includes <span class="text-primary fs-6">EyeCare+</span></p>
+                                <p class="mb-0 ms-auto">by <a href="" class="text-primary">Johnson & Johnson</a></p>
+                            </div>
+                        </div>
+                        <div class="row border-bottom">
+                            <div class="col-12 col-md-6 d-flex ps-0">
+                                <p class="text-danger text-center text-decoration-line-through me-3 mb-0 mt-2 fs-5">£30.00</p>
+                                <span class="fw-bold text-black fs-5 mb-0 mt-2">£22.99</span>
+                            </div>
+                        </div>
+                        <div class="row pt-4 pb-5">
+                            <div class="col-2 p-0">
+                                <div class="small-images">
+                                    <img src="./assets/src/img/582.jpg" class="img-fluid logo border small-image mb-3" data-large-image="./assets/src/img/582.jpg" height="70" width="70" alt="">
+
+                                    <img src="./assets/src/img/583.png" class="img-fluid logo border small-image mb-3" data-large-image="./assets/src/img/585.png" height="70" width="70" alt="">
+
+                                    <img src="./assets/src/img/584.png" class="img-fluid logo border small-image mb-3" data-large-image="./assets/src/img/586.png" height="70" width="70" alt="">
+
+                                    <img src="./assets/src/img/581.jpg" class="img-fluid logo border bg-black mb-3" height="70" width="70" alt="">
+                                </div>
+                            </div>
+                            <div class="col-10 p-0" id="large-image">
+                                <img src="./assets/src/img/582.jpg" class="img-fluid logo large-image d-block w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="row d-flex">
+                            <div class="col-1 border-bottom"></div>
+                            <div class="col-2 border px-3 py-2 border-bottom-0 d-flex justify-content-center align-items-center reviews" style="cursor: pointer;" id="reviews">
+                                <p class="text-center mb-0">Yorumlar</p>
+                            </div>
+                            <div class="col-1 border-bottom"></div>
+                            <div class="col-3 border px-4 py-2 d-flex justify-content-center align-items-center reviews" style="cursor: pointer;" id="information">
+                                <p class="text-center mb-0">Bilgi</p>
+                            </div>
+                            <div class="col-5 border-bottom"></div>
+                        </div>
+                        <div class="container" id="reviews2">
+                            <div class="row my-4">
+                                <div class="col-12 p-0">
+                                    <h3>Astigmatizma için 1 Günlük Acuvue Moist</h3>
+                                </div>
+                            </div>
+                            <div class="row mt-3 mb-5 d-flex">
+                                <div class="col-3 p-0 d-flex">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                                <div class="col-9 ps-0">
+                                    <p class="mb-0 ms-2 mt-1">305 Yorum(lar)</p>
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Konfor</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Paranın Değeri</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row mb-4 d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold">Görüş</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-0">
+                                    <p class="mb-0">koymak ve çıkarmak kolay</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col p-0">
+                                    <p style="color: gray;">Delphine tarafından yapılan inceleme (Yayınlanma tarihi: 28/02/2023)</p>
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Konfor</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Paranın Değeri</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row mb-4 d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold">Görüş</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-0">
+                                    <p class="mb-0">Bunları Monovision için en az 5 yıldır kullanıyorum. Başka lensler de denedim ama hiçbiri karşılaştırılamaz. Kontakt lens kontrollerim iyi durumda ve çok rahatlar. Fiyat, ara sıra özel tekliflerle birlikte doğrudan vizyondan iyidir, hizmet hızı neredeyse sıfırdır. Sık sık aldığım küçük şeker paketine de bayılıyorum. Burada her şey yolunda. Marka ve vizyonu doğrudan kullanmaya devam edeceğim.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col p-0">
+                                    <p style="color: gray;">Lisa tarafından yapılan inceleme (Yayınlanma tarihi: 16/02/2023)</p>
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Konfor</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Paranın Değeri</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row mb-4 d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold">Görüş</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-0">
+                                    <p class="mb-0">Ürünü seviyorum ama son zamanlarda folyo paketlerini sanki yeterince delikli değilmiş gibi ayırmak daha zor görünüyor. Bu, bir merceğin yere düşmesine neden oldu</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col p-0">
+                                    <p style="color: gray;">Susan tarafından yapılan inceleme (Yayınlanma tarihi: 14/02/2023)</p>
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Konfor</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Paranın Değeri</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row mb-4 d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold">Görüş</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-0">
+                                    <p class="mb-0">Bu ürünü birkaç yıldır kullanıyorum ve rahat buluyorum ve gözlerim sağlıklı kalıyor</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col p-0">
+                                    <p style="color: gray;">Julian tarafından yapılan inceleme (Yayınlanma tarihi: 13/02/2023)</p>
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Konfor</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Paranın Değeri</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row mb-4 d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold">Görüş</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-0">
+                                    <p class="mb-0">Bu ürünü birkaç yıldır kullanıyorum ve rahat buluyorum ve gözlerim sağlıklı kalıyor</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col p-0">
+                                    <p style="color: gray;">Julian tarafından yapılan inceleme (Yayınlanma tarihi: 13/02/2023)</p>
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Konfor</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold mb-1">Paranın Değeri</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row mb-4 d-flex">
+                                <div class="col-3 p-0">
+                                    <p class="fw-bold">Görüş</p>
+                                </div>
+                                <div class="col-9">
+                                    <img src="./assets/src/img/rating.png" class="img-fluid logo" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-0">
+                                    <p class="mb-0">Bir süredir onları giyiyorum ve onları seviyorum.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4 border-bottom">
+                                <div class="col p-0">
+                                    <p style="color: gray;">Jane tarafından yapılan inceleme (Yayınlanma tarihi: 06/02/2023)</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <nav aria-label="...">
+                                        <ul class="pagination">
+                                            <li class="page-item active"><button class="page-link">1</button></li>
+                                            <li class="page-item"><button class="page-link">2</button></li>
+                                            <li class="page-item"><button class="page-link">3</button></li>
+                                            <li class="page-item"><button class="page-link">4</button></li>
+                                            <li class="page-item"><button class="page-link">5</button></li>
+                                            <li class="border-0 bg-white"><button class="p-2 bg-white border-0">...</button></li>
+                                            <li class="page-item"><button class="page-link">178</button></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container" id="information2">
+                            <div class="row mt-5 mb-3">
+                                <div class="col">
+                                    <h5>Astigmatizma için 1 Günlük Acuvue Moist Kontakt Lenslerin Faydaları</h5>
+                                </div>
+                            </div>
+                            <ul type="square" class="mb-5">
+                                <li>Astigmatı olanlar için yüksek kaliteli günlük tek kullanımlık kontakt lensler</li>
+                                <li>LACREON teknolojisi gün boyu konfor sağlar</li>
+                                <li>Lenslerdeki nem doğal gözyaşlarına benzer</li>
+                                <li>UV engelleme teknolojisi gözleri güneşin zararlarından korur</li>
+                                <li>Göz kapağı stabilize tasarım lensin göz üzerindeki konumunu korur</li>
+                                <li>Ultra nefes alabilen malzeme net ve sağlıklı görüş sağlar</li>
+                                <li>Lens rengi ve 1-2-3 göstergesi uygulama sürecini kolaylaştırır</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Taban eğrisi ve çapı da dahil olmak üzere Acuvue Moist için <a href="" class="text-primary">kontakt lens reçetenizi nasıl okuyacağınızı öğrenin</a>.</p>
+                                </div>
+                            </div>
+                            <div class="row mt-3 mb-3">
+                                <div class="col">
+                                    <h5>Acuvue Moist hakkında daha fazla bilgi</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p>1 Day Acuvue Moist, Johnson & Johnson'ın günlük göz bakımı rutini gerektirmeyen, inanılmaz derecede nefes alabilen günlük kontakt lensleridir. Kuru veya hassas gözler için mükemmel olan bu lensler, vücudun doğal gözyaşlarından ilham alan özel LACREON teknolojisi ve nemlendirici bir maddeyle üretilmiştir. Ayrıca görüşünüzü kristal netliğinde tutmak için nemi hapseder ve kuruluğu önler.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p>Uzun süreli rahatlık sağlayabilecek lensler arıyorsanız 1 Day Acuvue Moist mükemmel bir seçimdir. Eşsiz nem yastıkları gözlerinizi tahrişten korur ve ekstra bakım sağlamak üzere özel olarak formüle edilmiştir. %58 oranında yüksek su içeriğine sahiptirler, dahili UV korumasına sahiptirler ve yüksek koruma sağlamak için bir tür <a href="" class="text-primary">silikon hidrojel malzeme</a>, etafilcon A'dan yapılmıştır. Kahvaltıdan günün sonuna kadar konfor seviyeleri.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p>1 Day Acuvue Moist kontakt lensleri ayrıca <a href="" class="text-primary">1 Day Acuvue Moist Multifocal</a> olarak multifokal formda ve <a href="" class=" ile torik lensler olarak da mevcuttur. text-primary">Astigmatizma için 1 Günlük Acuvue Moist</a>.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h5>1 Day Acuvue Moist kontakt lenslerini takabilir misiniz?</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p>1 Day Acuvue Moist, <a href="" class="text-primary">göz testi</a> sonrasında sol ve sağ gözdeki uzak ve kısa görüşlülüğü düzeltmeye uygun günlük kontakt lenslerdir. Özellikle gözleri kuru ve hassas olan, ayrıca alerjisi olan kullanıcılara tavsiye edilir.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h5>1 Day Acuvue Moist kontakt lenslerini ne kadar süre kullanabilirsiniz?</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p>Önerilen süre gözlerinizin özelliklerine göre değişebilir ancak genel olarak konuşursak, yaklaşık 10-12 saat aralıksız rahat edecek şekilde tasarlanmıştır. Bu sürenin sonunda kuruluk, kızarıklık ve diğer olası rahatsızlıkları önlemek için bunları atmanız yeterlidir.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h5>What material is 1 Day Acuvue Moist contact lenses made from?</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p>1 Day Acuvue Moist %58 gibi yüksek bir su içeriğine sahiptir ve oksijenin korneaya kolaylıkla ulaşmasını sağlayan nefes alabilen etafilcon A'dan yapılmıştır.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h5>Hangisi daha iyi: 1 Gün Acuvue Moist mi yoksa HydraLuxe ile 1 Gün Acuvue Oasys mi?</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p><a href="" class="text-primary">Acuvue Moist vs Oasys</a> (başka bir popüler <a href="" class="text-primary">Acuvue</a> günlük gazete markası) söz konusu olduğunda, bu büyük ölçüde 1 Day Acuvue Moist'in sunduğu daha yüksek nem düzeylerini mi, yoksa <a href="" class="text-primary">Acuvue Oasys 1 Day with HydraLuxe</a>'nın gelişmiş nefes alabilirliğini mi tercih edeceğinize bağlıdır.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h5>Alternatif kontakt lensler</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p class="mb-0 fw-bold">Ayrıca giyebilirsin...</p>
+                                    <p><a href="" class="text-primary">everclear ADM</a> veya <a href="" class="text-primary">Dailies AquaComfort Plus</a>, gözlükçümüz tarafından uyumlu olarak önerilmektedir. bu lenslere alternatif</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h5>1 Günlük Acuvue Nemli kontakt lens teknik özellikleri</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Üretici firma:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0"><a href="" class="text-primary">Johnson & Johnson</a></p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Marka:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0"><a href="" class="text-primary">Acuvue</a></p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Objektif Tipi:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0"><a href="" class="text-primary">Daily disposable</a></p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Malzeme:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0">58% Water + 42% Etafilcon A</p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Su içeriği:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0">58%</p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Oksijen geçirgenliği:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0">25.5 x 10 Dk/t</p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Mercek çapı:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0">14.2mm</p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Temel eğriler:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0">8.5 mm; 8.9mm</p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Mevcut güçler:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0">+0.50D to +6.00D | -0.50D to -12.0D</p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">Renk tonunu kullanma:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0">Evet</p>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-6">
+                                    <p class="mb-0 fw-bold">UVA/UVB koruması:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0">Evet</p>
+                                </div>
+                            </div>
+                            <div class="card rounded-0 shadow">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5 class="fw-bold">Optik ekibimiz tarafından incelendi</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-md-4">
+                                            <img src="./assets/src/img/Carl_G_photo_1__200px.jpg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p><span class="fw-bold">Ortak yazar:</span> Carl Greatbanks<br>Uzman Kontakt Lens Danışmanı</p>
+                                                </div>
+                                            </div>
+                                            <div class="row my-2">
+                                                <div class="col">
+                                                    <p>Carl, Vision Direct'in Uzman Kontakt Lens Danışmanıdır. Kontakt lens uzmanlığı sertifikasını ve binlerce müşteriye göz bakımı çözümleri sunma konusundaki 13 yıllık deneyimini müşteri hizmetleri ekibine getiriyor. Carl, cadde gözlükçüleriyle aynı kişiselleştirilmiş deneyimi sunma konusunda Vision Direct'i destekliyor.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p>Tüm içerik deneyimli <a href="" class="text-primary">tıp profesyonellerinden</a> oluşan ekibimiz tarafından incelenmiştir.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5 mb-2">
+                                <div class="col">
+                                    <h5 class="fw-bold">Referanslar</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-1" style="font-size: 11px;">1.H. Sheardown, L. Liu, L. Jones; 1-DAY ACUVUE® MOIST™ ve 1-DAY ACUVUE® Kontakt Lenslerin Kimyasal Karakterizasyonu. Yatırım. Oftalmol. Vis. Bilim. 2006;47(13):2388.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p style="font-size: 11px;"><a href="" class="text-primary">https://iovs.arvojournals.org/article.aspx?articleid=2392236</a></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-1" style="font-size: 11px;">2. J. Sha, D. Tilia, D. Kho, J. Diec, V. Thomas; Genişletilmiş Odak Derinlikli Prototip Kontakt Lenslerin Bir Hafta Kullanımdan Sonra 1 Günlük ACUVUE® MOIST MULTIFOCAL™ ile Karşılaştırılması. Göz ve Kontakt Lens: Bilim. & Klin. Prac. 2018;44(2):S157-S163.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p style="font-size: 11px;"><a href="" class="text-primary">https://journals.lww.com/claojournal/Abstract/2018/11002/Comparison_of_Extended_Depth_of_Focus_Prototype.27.aspx</a></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-1" style="font-size: 11px;">3.SM. Lee, JE. Lee, DI. Lee, HS. Yu; Acanthamoeba'nın Kozmetik Kontakt Lenslere Yapışması. J. Koreli. Med. Bilim. 2018;33(4):e26.</p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p style="font-size: 11px;"><a href="" class="text-primary">https://synapse.koreamed.org/upload/SynapseData/PDFData/0063jkms/jkms-33-e26.pdf</a></p>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <h5 class="fw-bold">Ek Bilgiler</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p>Kontakt lenslerinizi çevrimiçi olarak nasıl satın alacağınız konusunda tavsiyeye ihtiyacınız varsa, Pazartesi - Cuma 8:00 - 21:00 ve Cumartesi - Pazar 8:00 - 18:00 web sohbeti, telefon (020) aracılığıyla size yardımcı olmak için buradayız. 7768 5000 - Birleşik Krallık, 1 800 870 0741 - ABD veya <a href="" class="text-primary">help@visiondirect.co.uk</a> adresine e-posta gönderin. Vision Direct'ten sipariş vermeyle ilgili bir sorunuz mu var? Kullanışlı nasıl yapılır kılavuzlarımıza göz atın.</p>
+                                </div>
+                            </div>
+                            <ul type="square" class="mb-5">
+                                <li><a href="" class="text-primary">Temel eğri ve çap bilgileri</a></li>
+                                <li><a href="" class="text-primary">Teslimat Bilgisi</a></li>
+                                <li><a href="" class="text-primary">İptal ve iade bilgileri</a></li>
+                                <li><a href="" class="text-primary">Kontakt lensleri reçetesiz satın alın</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 pe-0 pb-5" id="product-right">
+                        <div class="row rightArea">
+                            <div class="row pe-0">
+                                <div class="col-12 d-xl-flex justify-content-between pe-0 border-bottom border-white border-3 py-3">
+                                    <h6>Reçetenizi girin</h6>
+                                    <div class="form-check form-check-inline me-0">
+                                        <input class="form-check-input border-1 border-black" type="checkbox" id="formCheck" value="option1">
+                                        <label class="form-check-label" for="formCheck">Her iki göz için de aynı reçete</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-3 rightCol pe-0">
+                                <div class="col-4">&nbsp;</div>
+                                <div class="col-4">
+                                    <p class="mb-0 fw-bold text-center">Sağ Göz(OD)</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="mb-0 fw-bold text-center">Sol Göz(OS)</p>
+                                </div>
+                            </div>
+                            <div class="row my-2 rightCol pe-0">
+                                <div class="col-4">
+                                    <p class="mb-0 fw-bold">Taban eğrisi</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="mb-0 text-center">8.4</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="mb-0 text-center">8.4</p>
+                                </div>
+                            </div>
+                            <div class="row my-2 rightCol pe-0">
+                                <div class="col-4">
+                                    <p class="mb-0 fw-bold">Çap</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="mb-0 text-center">14.5</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="mb-0 text-center">14.5</p>
+                                </div>
+                            </div>
+                            <div class="row my-2 rightCol pe-0">
+                                <div class="col-4 pt-1">
+                                    <p class="mb-0 fw-bold">Güç</p>
+                                </div>
+                                <div class="col-4 mt-0">
+                                    <select class="form-select rounded-0 form-select-sm" name="selectNumber" id="selectNumber">
+                                        <option value="" id="firstOption">--</option>
+                                        <option value="">-0.50</option>
+                                        <option value="">+0.50</option>
+                                        <option value="">-0.75</option>
+                                        <option value="">+0.75</option>
+                                        <option value="">-1.00</option>
+                                        <option value="">+1.00</option>
+                                        <option value="">-1.25</option>
+                                        <option value="">+1.25</option>
+                                        <option value="">-1.50</option>
+                                        <option value="">+1.50</option>
+                                        <option value="">-1.75</option>
+                                        <option value="">+1.75</option>
+                                        <option value="">-2.00</option>
+                                        <option value="">+2.00</option>
+                                        <option value="">-2.25</option>
+                                        <option value="">+2.25</option>
+                                        <option value="">-2.50</option>
+                                        <option value="">+2.50</option>
+                                        <option value="">-2.75</option>
+                                        <option value="">+2.75</option>
+                                        <option value="">-3.00</option>
+                                        <option value="">+3.00</option>
+                                        <option value="">-3.25</option>
+                                        <option value="">+3.25</option>
+                                        <option value="">-3.50</option>
+                                        <option value="">+3.50</option>
+                                        <option value="">-3.75</option>
+                                        <option value="">+3.75</option>
+                                        <option value="">-4.00</option>
+                                        <option value="">+4.00</option>
+                                        <option value="">-4.25</option>
+                                        <option value="">+4.25</option>
+                                        <option value="">-4.50</option>
+                                        <option value="">+4.50</option>
+                                        <option value="">-4.75</option>
+                                        <option value="">+4.75</option>
+                                        <option value="">-5.00</option>
+                                        <option value="">+5.00</option>
+                                        <option value="">-5.25</option>
+                                        <option value="">+5.25</option>
+                                        <option value="">-5.50</option>
+                                        <option value="">+5.50</option>
+                                        <option value="">-5.75</option>
+                                        <option value="">+5.75</option>
+                                        <option value="">-6.00</option>
+                                        <option value="">+6.00</option>
+                                        <option value="">-6.50</option>
+                                        <option value="">+6.50</option>
+                                        <option value="">-7.00</option>
+                                        <option value="">+7.00</option>
+                                        <option value="">-7.50</option>
+                                        <option value="">+7.50</option>
+                                        <option value="">-8.00</option>
+                                        <option value="">+8.00</option>
+                                        <option value="">-8.50</option>
+                                        <option value="">-9.00</option>
+                                        <option value="">-9.50</option>
+                                        <option value="">-10.00</option>
+                                        <option value="">-10.50</option>
+                                        <option value="">-11.00</option>
+                                        <option value="">-11.50</option>
+                                        <option value="">-12.00</option>
+                                    </select>
+                                </div>
+                                <div class="col-4 mt-0">
+                                    <select class="form-select rounded-0 form-select-sm" name="selectNumber" id="selectNumber">
+                                        <option value="" id="firstOption">--</option>
+                                        <option value="">-0.50</option>
+                                        <option value="">+0.50</option>
+                                        <option value="">-0.75</option>
+                                        <option value="">+0.75</option>
+                                        <option value="">-1.00</option>
+                                        <option value="">+1.00</option>
+                                        <option value="">-1.25</option>
+                                        <option value="">+1.25</option>
+                                        <option value="">-1.50</option>
+                                        <option value="">+1.50</option>
+                                        <option value="">-1.75</option>
+                                        <option value="">+1.75</option>
+                                        <option value="">-2.00</option>
+                                        <option value="">+2.00</option>
+                                        <option value="">-2.25</option>
+                                        <option value="">+2.25</option>
+                                        <option value="">-2.50</option>
+                                        <option value="">+2.50</option>
+                                        <option value="">-2.75</option>
+                                        <option value="">+2.75</option>
+                                        <option value="">-3.00</option>
+                                        <option value="">+3.00</option>
+                                        <option value="">-3.25</option>
+                                        <option value="">+3.25</option>
+                                        <option value="">-3.50</option>
+                                        <option value="">+3.50</option>
+                                        <option value="">-3.75</option>
+                                        <option value="">+3.75</option>
+                                        <option value="">-4.00</option>
+                                        <option value="">+4.00</option>
+                                        <option value="">-4.25</option>
+                                        <option value="">+4.25</option>
+                                        <option value="">-4.50</option>
+                                        <option value="">+4.50</option>
+                                        <option value="">-4.75</option>
+                                        <option value="">+4.75</option>
+                                        <option value="">-5.00</option>
+                                        <option value="">+5.00</option>
+                                        <option value="">-5.25</option>
+                                        <option value="">+5.25</option>
+                                        <option value="">-5.50</option>
+                                        <option value="">+5.50</option>
+                                        <option value="">-5.75</option>
+                                        <option value="">+5.75</option>
+                                        <option value="">-6.00</option>
+                                        <option value="">+6.00</option>
+                                        <option value="">-6.50</option>
+                                        <option value="">+6.50</option>
+                                        <option value="">-7.00</option>
+                                        <option value="">+7.00</option>
+                                        <option value="">-7.50</option>
+                                        <option value="">+7.50</option>
+                                        <option value="">-8.00</option>
+                                        <option value="">+8.00</option>
+                                        <option value="">-8.50</option>
+                                        <option value="">-9.00</option>
+                                        <option value="">-9.50</option>
+                                        <option value="">-10.00</option>
+                                        <option value="">-10.50</option>
+                                        <option value="">-11.00</option>
+                                        <option value="">-11.50</option>
+                                        <option value="">-12.00</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row my-2 rightCol pe-0">
+                                <div class="col-4 pt-1">
+                                    <p class="mb-0 fw-bold">Silindir</p>
+                                </div>
+                                <div class="col-4 mt-0">
+                                    <select class="form-select rounded-0 form-select-sm" name="selectNumber" id="selectNumber">
+                                        <option value="" id="firstOption">--</option>
+                                        <option value="">-2.75</option>
+                                        <option value="">-2.25</option>
+                                        <option value="">-1.75</option>
+                                        <option value="">-1.25</option>
+                                        <option value="">-0.75</option>
+                                    </select>
+                                </div>
+                                <div class="col-4 mt-0">
+                                    <select class="form-select rounded-0 form-select-sm" name="selectNumber" id="selectNumber">
+                                        <option value="" id="firstOption">--</option>
+                                        <option value="">-2.75</option>
+                                        <option value="">-2.25</option>
+                                        <option value="">-1.75</option>
+                                        <option value="">-1.25</option>
+                                        <option value="">-0.75</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row my-2 mb-4 rightCol pe-0">
+                                <div class="col-4 pt-1">
+                                    <p class="mb-0 fw-bold">Eksen</p>
+                                </div>
+                                <div class="col-4 mt-0">
+                                    <select class="form-select rounded-0 form-select-sm" name="selectNumber" id="selectNumber">
+                                        <option value="" id="firstOption">--</option>
+                                        <option value="" >10</option>
+                                        <option value="">20</option>
+                                        <option value="">30</option>
+                                        <option value="">40</option>
+                                        <option value="">50</option>
+                                        <option value="">60</option>
+                                        <option value="">70</option>
+                                        <option value="">80</option>
+                                        <option value="">90</option>
+                                        <option value="">100</option>
+                                        <option value="">110</option>
+                                        <option value="">120</option>
+                                        <option value="">130</option>
+                                        <option value="">140</option>
+                                        <option value="">150</option>
+                                        <option value="">160</option>
+                                        <option value="">170</option>
+                                        <option value="">180</option>
+                                    </select>
+                                </div>
+                                <div class="col-4 mt-0">
+                                    <select class="form-select rounded-0 form-select-sm" name="selectNumber" id="selectNumber">
+                                        <option value="" id="firstOption">--</option>
+                                        <option value="">10</option>
+                                        <option value="">20</option>
+                                        <option value="">30</option>
+                                        <option value="">40</option>
+                                        <option value="">50</option>
+                                        <option value="">60</option>
+                                        <option value="">70</option>
+                                        <option value="">80</option>
+                                        <option value="">90</option>
+                                        <option value="">100</option>
+                                        <option value="">110</option>
+                                        <option value="">120</option>
+                                        <option value="">130</option>
+                                        <option value="">140</option>
+                                        <option value="">150</option>
+                                        <option value="">160</option>
+                                        <option value="">170</option>
+                                        <option value="">180</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rightCol mb-3 pe-0">
+                            <div class="col-12 py-4 border rounded-2 border-1 radioButtonMonths">
+                                <div class="row mb-4">
+                                    <div class="col">
+                                        <div class="form-check d-flex">
+                                            <input class="form-check-input me-2" type="radio" name="radioButtonMonths" id="choose">
+                                            <label class="form-check-label" for="choose">
+                                                <p class="fw-bold mt-1">KENDİ MİKTARINIZI SEÇİN</p>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pe-0 d-flex">
+                                    <div class="col-6 d-flex justify-content-center">
+                                        <p class="mb-0 mt-1 me-2">SAĞ GÖZ (OD)</p>
+                                        <div class="">
+                                            <select class="form-select form-select-sm" name="" id="">
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="" selected>2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-center">
+                                        <p class="mb-0 mt-1 me-2">SOL GÖZ (OS)</p>
+                                        <div class="">
+                                            <select class="form-select form-select-sm me-0" name="" id="">
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="" selected>2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rightArea py-3 px-1 mb-3">
+                            <div class="row pe-0">
+                                <div class="col-12 d-flex justify-content-end">
+                                    <p class="me-auto mb-0" style="font-size: 18px;"><strong>TOPLAM</strong> 4 KUTU</p>
+                                    <p class="mb-0 mt-1 me-2 text-decoration-line-through" style="font-size: 16px;">£120.00</p>
+                                    <p class="mb-0 text-black fw-bold" style="font-size: 18px;">£91.96</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0">
+                                <p class="mb-0" style="font-size: 14px;">Klarna, Paypal, Afterpay ve Affirm ile zamanla ödeme yapın. <a href="" class="text-decoration-underline fw-bold">Daha Fazla Bilgi Edinin</a></p>
+                            </div>
+                            <div class="col-6 p-0">
+                                <div class="d-grid gap-2">
+                                  <button type="button" class="btn text-white fw-bold" style="background: #D54400;">SEPETE EKLE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 border-bottom pb-2">
+                    <div class="col-12 d-flex justify-content-center">
+                        <h6>Diğer müşteriler de baktı...</h6>
+                    </div>
+                </div>
+                <ul class="list-unstyled row d-flex">
+                    <li class="d-flex col-6 col-lg-3 flex-column align-items-center">
+                        <img src="./assets/src/img/587.jpg" alt="" class="img-fluid mt-1 mb-2">
+                        <p class="mb-1">everclear Eye Drops</p>
+                        <p class="fw-bold" style="font-size: 14px; color: gray;">€3.99</p>
+                    </li>
+                    <li class="d-flex col-6 col-lg-3 flex-column align-items-center">
+                        <img src="./assets/src/img/588.jpg" alt="" class="img-fluid mt-4 pt-4">
+                        <p class="mb-1 mt-2">Dailies AquaComfort Plus</p>
+                        <div class="d-flex">
+                            <p class="fw-bold text-danger text-decoration-line-through mb-0" style="font-size: 14px;">€18.00</p>
+                            <p class="fw-bold ms-3 mb-0" style="font-size: 14px; color: gray;">€16.49</p>
+                        </div>
+                    </li>
+                    <li class="d-flex col-6 col-lg-3 flex-column align-items-center">
+                        <img src="./assets/src/img/589.jpg" alt="" class="img-fluid mt-4 pt-4">
+                        <p class="mb-1 mt-2">everclear Eye Drops</p>
+                        <p class="fw-bold" style="font-size: 14px; color: gray;">€3.99</p>
+                    </li>
+                    <li class="d-flex col-6 col-lg-3 flex-column align-items-center">
+                        <img src="./assets/src/img/590.jpg" alt="" class="img-fluid mt-4 pt-4">
+                        <p class="mb-1 mt-2">everclear Eye Drops</p>
+                        <p class="fw-bold" style="font-size: 14px; color: gray;">€3.99</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="container-fluid">
+                <div class="container py-5">
+                    <div class="row d-md-none">
+                        <div class="col mb-5 d-flex justify-content-center">
+                            <img src="./assets/src/img/logo.jpg" class="logo" alt="">
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush d-md-none" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    KONTAK LENS
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="acuvue.html">Acuvue</a>
+                                    <a href="air-optix.html">Air Optix</a>
+                                    <a href="biofinity.html">Biofiniti</a>
+                                    <a href="clariti.html">Clariti</a>
+                                    <a href="dailies.html">Dailies</a>
+                                    <a href="everclear.html">everclear</a>
+                                    <a href="freshlook.html">Freshlook</a>
+                                    <a href="daily-contact-lenses.html">Günlük Lensler</a>
+                                    <a href="two-weekly-contact-lenses.html">İki Haftalık</a>
+                                    <a href="monthly-contact-lenses.html">Aylık Lensler</a>
+                                    <a href="toric-contact-lenses.html">Astigmatizma için Torikler</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    GÖZ BAKIMI
+                                </button>
+                            </h2>
+                            <div id="flush-collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="dry-eye-treatments.html">Kuru Göz Tedavileri</a>
+                                    <a href="eye-drops.html">Gözyaşı</a>
+                                    <a href="eye-vitamins.html">Göz Vitaminleri</a>
+                                    <a href="hygiene-lid-care.html">Hijyen & Kapak Bakımı</a>
+                                    <a href="eye-wash-sprays.html">Göz Yıkama ve Spreyler</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    ÇÖZÜMLER
+                                </button>
+                            </h2>
+                            <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="multi-purpose-solutions.html">Çok amaçlı</a>
+                                    <a href="cleaners-salines.html">Temizleyiciler ve Salinler</a>
+                                    <a href="gas-permeable-solutions.html">Gaz Geçirgen</a>
+                                    <a href="travel-packs-solutions.html">Travel Packs</a>
+                                    <a href="hydrogen-peroxide-solutions.html">Hidrojen peroksit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    TELEFON DESTEĞİ
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <a href="" class="mb-0">UK - 020 7768 5000</a>
+                                    <p class="mb-0">Pazartesi - Cuma: 8:00 to 21:00</p>
+                                    <p>Cumartesi - Pazar: 08:00 - 18:00</p>
+                                    <a href="" class="mb-0">USA - 1 800 870 0741</a>
+                                    <p class="mb-0">Pazartesi - Cuma: 8:00 to 21:00 GMT</p>
+                                    <p>Cumartesi - Pazar: 08:00 to 18:00 GMT</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    POSTA ADRESİMİZ
+                                </button>
+                            </h2>
+                            <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <p class="mb-0">Doğrudan Vizyon</p>
+                                    <p class="mb-0">Birim 2 Hudson Mahkemesi</p>
+                                    <p class="mb-0">Büyük Kuzey Yolu, York İş Parkı</p>
+                                    <p class="mb-4">Nether Poppleton, YORK, YO26 6RB</p>
+                                    <a href="" class="text-primary fw-bold">İade ve Geri Ödeme Politikası</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    E-POSTA DESTEĞİ
+                                </button>
+                            </h2>
+                            <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column align-items-center">
+                                    <p class="mb-0">E-posta yoluyla ulaşın</p>
+                                    <a href="#" class="text-primary fw-bold">help@visiondirect.co.uk</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    HİZMETLER
+                                </button>
+                            </h2>
+                            <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="#">Hakkımızda</a>
+                                    <a href="#">Blog</a>
+                                    <a href="#">Şartlar ve koşullar</a>
+                                    <a href="#">Gizlilik Politikası</a>
+                                    <a href="#">Çerez politikası</a>
+                                    <a href="#">İştirakler</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    ÜLKELER
+                                </button>
+                            </h2>
+                            <div id="flush-collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body d-flex flex-column">
+                                    <a href="#">Belçika</a>
+                                    <a href="#">Fransa</a>
+                                    <a href="#">İrlanda</a>
+                                    <a href="#">İtalya</a>
+                                    <a href="#">Hollanda</a>
+                                    <a href="#">İspanya</a>
+                                    <a href="#" class="fw-bold">Birleşik Krallık</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pb-5 border-bottom d-none d-md-flex">
+                        <div class="col-12 col-md mb-5 mb-md-0">
+                            <img src="./assets/src/img/logo.jpg" class="logo" class="me-3" alt="">
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">KONTAK LENS</h6>
+                            <a href="acuvue.html">Acuvue</a>
+                            <a href="air-optix.html">Air Optix</a>
+                            <a href="biofinity.html">Biofiniti</a>
+                            <a href="clariti.html">Clariti</a>
+                            <a href="dailies.html">Dailies</a>
+                            <a href="everclear.html">everclear</a>
+                            <a href="freshlook.html">Freshlook</a>
+                            <a href="daily-contact-lenses.html">Günlük Lensler</a>
+                            <a href="two-weekly-contact-lenses.html">İki Haftalık</a>
+                            <a href="monthly-contact-lenses.html">Aylık Lensler</a>
+                            <a href="toric-contact-lenses.html">Astigmatizma için Torikler</a>
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">GÖZ BAKIMI</h6>
+                            <a href="dry-eye-treatments.html">Kuru Göz Tedavileri</a>
+                            <a href="eye-drops.html">Gözyaşı</a>
+                            <a href="eye-vitamins.html">Göz Vitaminleri</a>
+                            <a href="hygiene-lid-care.html">Hijyen & Kapak Bakımı</a>
+                            <a href="eye-wash-sprays.html">Göz Yıkama ve Spreyler</a>
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <h6 class="fw-bold mb-4">ÇÖZÜMLER</h6>
+                            <a href="multi-purpose-solutions.html">Çok amaçlı</a>
+                            <a href="cleaners-salines.html">Cleaners & Salines</a>
+                            <a href="gas-permeable-solutions.html">Gaz Geçirgen</a>
+                            <a href="travel-packs-solutions.html">Seyahat Paketleri</a>
+                            <a href="hydrogen-peroxide-solutions.html">Hidrojen peroksit</a>
+                        </div>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-12 col-md d-flex flex-column align-items-center align-items-md-baseline">
+                            <h6 class="fw-bold mb-5">KABUL EDİYORUZ</h6>
+                            <div>
+                                <img src="./assets/src/img/857_visa.jpg" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/mastercard-681.png" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/Maestro_2016.svg.png" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/PayPal_2023_Logo.jpg" class="img-fluid" width="64" height="48" alt="">
+                                <img src="./assets/src/img/American-Express-logo.jpg" class="img-fluid" width="64" height="48" alt="">
+                            </div>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="phone-support">
+                            <h6 class="fw-bold mb-4">TELEFON DESTEĞİ</h6>
+                            <a href="#" class="mb-0">UK - 020 7768 5000</a>
+                            <p class="mb-0">Pazartesi - Cuma: 8:00 to 21:00</p>
+                            <p>Cumartesi - Pazar: 08:00 - 18:00</p>
+                            <a href="#" class="mb-0">USA - 1 800 870 0741</a>
+                            <p class="mb-0">Pazartesi - Cuma: 8:00 to 21:00 GMT</p>
+                            <p>Cumartesi - Pazar: 08:00 to 18:00 GMT</p>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="postal-address">
+                            <h6 class="fw-bold mb-4">POSTA ADRESİMİZ</h6>
+                            <p class="mb-0">Doğrudan Vizyon</p>
+                            <p class="mb-0">Birim 2 Hudson Mahkemesi</p>
+                            <p class="mb-0">Büyük Kuzey Yolu, York İş Parkı</p>
+                            <p class="mb-4">Nether Poppleton, YORK, YO26 6RB</p>
+                            <a href="#" class="text-primary fw-bold">İade ve Geri Ödeme Politikası</a>
+                        </div>
+                        <div class="col d-flex flex-column d-none d-md-flex" id="email-support">
+                            <h6 class="fw-bold mb-4">E-POSTA DESTEĞİ</h6>
+                            <p class="mb-0">E-posta yoluyla ulaşın</p>
+                            <a href="#" class="text-primary fw-bold">help@visiondirect.co.uk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer-social-media">
+            <div class="container-fluid">
+                <div class="container py-4">
+                    <div class="row mb-2">
+                        <div class="col-7 d-none d-lg-flex">
+                            <a href="#">Hakkımızda</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Şartlar ve koşullar</a>
+                            <a href="#">Gizlilik Politikası</a>
+                            <a href="#">Çerez politikası</a>
+                            <a href="#">İştirakler</a>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex justify-content-center">
+                            <img src="./assets/src/img/icons8-facebook-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-instagram-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-tiktok-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-twitter-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-youtube-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-linkedin-48.png" class="img-fluid" width="24" height="24" alt="">
+                            <img src="./assets/src/img/icons8-pinterest-48.png" class="img-fluid" width="24" height="24" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7 d-none d-lg-flex">
+                            <a href="#">Belçika</a>
+                            <a href="#">Fransa</a>
+                            <a href="#">İrlanda</a>
+                            <a href="#">İtalya</a>
+                            <a href="#">Hollanda</a>
+                            <a href="#">İspanya</a>
+                            <a href="#" class="fw-bold">Birleşik Krallık</a>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex justify-content-center">
+                            <p class="fw-bold ms-4">&copy; 2023 Vision Direct. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
